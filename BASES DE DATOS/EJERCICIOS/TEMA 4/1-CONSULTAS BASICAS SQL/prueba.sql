@@ -1,0 +1,5 @@
+/*1. Recupera los apellidos de los empleados que tienen el mismo oficio que ‘JIMENEZ’*/
+SELECT APELLIDO FROM EMPLE WHERE OFICIO=(SELECT OFICIO FROM EMPLE WHERE APELLIDO='JIMENEZ')
+
+/*2.  Muestra el APELLIDO, OFICIO y SALARIO de los empleados del departamento de ‘FERNANDEZ’ que tengan su mismo salario.*/
+SELECT APELLIDO, OFICIO, SALARIO FROM EMPLE WHERE (DEPT_NO,SALARIO)=(SELECT DEPT_NO,SALARIO FROM EMPLE WHERE APELLIDO='FERNANDEZ')
