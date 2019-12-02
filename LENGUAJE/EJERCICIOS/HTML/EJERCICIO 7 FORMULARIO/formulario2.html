@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>EJERCICIO 7: FORMULARIO 2</title>
+	</head>
+	<body>
+		<table align="center" border="1" cellpadding="3" cellspacing="3">
+		<form method="post" action="C:\Users\1DAM01\Documents\SergioMartinez\DAM\LENGUAJE\EJERCICIOS\EJERCICIO 7 FORMULARIO\manejador.html">
+			<tr>
+					<td colspan="2" align="center">Identificador de nuevo usuario: <input type="text" name="usuario" maxlength="10" value="usu_012345" placeholder="" readonly disabled></td>
+			</tr>
+			<tr cols="2">
+					<td>Nombre: <input type="text" name="nombre" maxlength="30" value="" placeholder="Nombre"></td>
+					<td>Apellidos: <input type="text" name="apellidos" maxlength="30" value="" placeholder="Apellidos"></td>
+			</tr>
+			<tr cols="2">
+					<td>Contraseña: <input type="password" name="contraseña" maxlength="30" value="" placeholder="Contraseña"></td>
+					<td>Confirmar contraseña: <input type="password" name="contraseña2" maxlength="30" value="" placeholder="Confirmar contraseña"></td>
+			</tr>
+			<tr>
+					<td colspan="2" align="left">Email <input type="text" name="email" maxlength="30" value="" placeholder="email@email.com" size="60"></td>
+			</tr>
+			<tr cols="2">
+					<td>Sexo </td>
+					<td><input type="radio" name="sexo" value="hombre">Hombre
+					<input type="radio" name="sexo" value="mujer" checked>Mujer</td>
+			</tr>
+			<tr cols="2">
+					<td>Aficiones </td>
+					<td><input type="checkbox" name="aficiones" value="deporte">Deporte<br>
+					<input type="checkbox" name="aficiones" value="lectura" checked>Lectura<br>
+					<input type="checkbox" name="aficiones" value="cine">Cine<br></td>
+			</tr>
+			<tr cols="2">
+					<td>País </td>
+					<td><select name="pais">
+					<option selected="selected">Francia
+					<option>España
+					<option>Portugal
+					</select>
+			</tr>
+			<tr cols="2">
+					<td>Colores favoritos</td>
+					<td><select name="color" multiple>
+					<option selected="selected">Rojo
+					<option selected="selected">Azul
+					<option>Verde
+					</select>
+			</tr>
+			<tr cols="2">
+					<td>Subir foto</td>
+					<td><input type="file" name="foto">
+			</tr>
+			<tr cols="2">
+				<td>Comentarios personales:</td>
+				<td><textarea style="resize:none" name="comentario" cols="40" rows="5" maxlength="200" placeholder="Introduce aquí tus comentarios"></textarea></td>
+			</tr>
+			<tr cols="2">
+				<td align="center"><input type="reset" name="restear" value="Resetear" ></td>
+				<td align="center"><input type="submit" name="enviar" value="Enviar"> 
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="button" name="modificar" value="Modificar datos de usuario" disabled></td>
+			</tr>
+			</form>
+			</table>
+		</body>
+		
+</html>

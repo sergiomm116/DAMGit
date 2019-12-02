@@ -1,0 +1,61 @@
+<html>
+	<!--NOMBRE DE LA PESTAÑA DE GOOGLE CON EL NOMBRE DEL EJERCICIO-->
+	<head>
+		<title>EJERCICIO EXAMEN: FORMULARIO</title>
+	</head>
+		<!--FIN DEL APARTADO HEAD. COMIENZA EL BODY CON EL TITULO Y EL DESARROLLO DEL EJERCICIO. -->
+		<body bgcolor="#CCFF33">
+			<table align="center" border="0">
+				<form method="post">
+				
+					<tr cols="1">
+							<td>
+							<b>Nombre:</b> <input type="text" name="nombre" maxlength="50" size="25" ><br><br>
+							<b>Apellidos:</b> <input type="text" name="apellidos" maxlength="50" size="35" ><br><br>
+							<b>Población:</b> <input type="text" name="poblacion" maxlength="50" size="15"><br><br>
+							<b>Provincia:</b> <input type="text" name="provincia" maxlength="50" size="15"><br><br>
+							</td>
+							
+					</tr>
+					<tr cols="1">
+							<td>
+							<b>Edad</b><br>
+						
+								<input type="radio" name="edad" value="0" align="left">0-20<br>
+								<input type="radio" name="edad" value="20" align="left" checked="checked">20-40<br>
+								<input type="radio" name="edad" value="40" align="left">40-60 <br>
+								<input type="radio" name="edad" value="60" align="left">60-100 <br>
+							</td>
+							<td align="left">
+							<b>¿Cómo nos conociste?</b><br>
+							<input type="checkbox" align="right" name="amigo">A través de un amigo<br>
+							<input type="checkbox" align="right" name="buscador">A través de un buscador<br>
+							<input type="checkbox" align="right" name="red">Navegando por la red<br>
+							<input type="checkbox" align="right" name="otros">Otros<br>
+							
+					</tr>
+					<tr cols="1">
+							<td>
+							<b>Opinión sobre nuestra página</b><br>
+							<textarea style="resize:none" name="comentario" cols="40" rows="5" maxlength="200" placeholder="Escribe aquí tu opinión..."></textarea><br><br><br></td>
+					</tr>
+					<tr cols="2">
+							<td>			
+							<b>¿Cuánto navegas por Internet? </b> (Señala la opción que más se acerque)<br>
+							<select name="navegar" size="2">
+							<option>2 horas al día
+							<option>4 horas al día
+							<option>10 horas a la semana
+							<option>20 horas al mes
+						</select></td>
+					</tr>
+					<tr cols="2">
+						<td align="left"><br><input type="submit" name="enviar" value="Enviar formulario"></td>
+						<td align="leftS"><br><input type="reset" name="restear" value="Borrar formulario"></td>
+					</tr>
+				</form>
+			</table>
+		</body>
+		<!--FIN DEL APARTADO BODY -->
+</html>
+<!--FIN DEL EJERCICIO -->
