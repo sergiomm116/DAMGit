@@ -1,0 +1,18 @@
+#capa1 { 
+	border-style:inset; 
+	position:absolute; 
+	top:0px; 
+	bottom:0px; 
+	width:100%;
+	padding:25px;
+}
+
+#capa2 { 
+	border-style:inset; 
+	position:absolute; 
+	top:250px; 
+	bottom:300px; 
+	width:700px; 
+	height:200px;
+	padding:15px; 
+}
