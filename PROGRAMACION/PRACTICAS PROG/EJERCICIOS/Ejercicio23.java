@@ -9,32 +9,33 @@ public class Ejercicio23 {
 	public static void main (String[] args) {
 		Scanner input=new Scanner (System.in);
 		
-		String nombre="";
-		double litros=0;
-		double precio=0;
-		double preciototal=0;
-		double litrostotal=0;
-		int mayor=0;
+		String nombre="a";
+		int c_litros=0;
+		int c_600=0;
+		int litros=0;
+		int precio=0;
 		
-		System.out.println("Introduce el nombre del producto(introduce 0 para parar); ");
-		nombre = input.nextLine();
 		
-		String stop="0";
-		boolean parar=(nombre.equals(stop));
+		System.out.print("Nombre: ");
+		nombre=input.nextLine();
 		
-		if (parar!=true){
+		System.out.print("Litros: ");
+		litros=input.nextInt();
 		
-			System.out.println("Introduce la cantidad de litros: ");
-			litros= input.nextDouble();
-			System.out.println("Introduce el precio por litro: ");
-			precio= input.nextDouble();
-			preciototal=precio*litros;
-			System.out.println(litros+" L "+nombre+" N "+precio+" e ");
-				if (totalprecio<=600){
-					mayor++;
-		}else{
-			
+		System.out.print("Precio por litro: ");
+		precio=input.nextInt();
 		
+		System.out.println("Producto: "+nombre);
+		System.out.println("Litros: "+litros);
+		System.out.println("Precio por litro: "+precio);
+		System.out.println("Precio total: "+litros*precio);
+		
+		
+		if((precio*litros)>=600){
+			c_600=c_600+1;
+		}
+		
+		System.out.println("Pedidos superiores a 600e: "+c_600);
 	}
 }
 
