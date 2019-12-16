@@ -1,0 +1,24 @@
+/bin: Ejecutables (o binarios) básicos del sistema, cuando, por ejemplo ejecutamos el comando cp en realidad ejecutamos /bin/cp.
+/var: Aquí se almacenan las variables y los logs.
+/usr: En esta carpeta están el resto de archivos de configuración, ejecutables, fuentes, etc...
+/lib: Librerías del sistema.
+/home: Aquí están las carpetas de cada usuario.
+/boot: Archivos de arranque del sistema.
+/dev: Dispositivos (devices) del sistema.
+/etc: Archivos básicos de configuración.
+/root: esta es la carpeta privada del root, aquí puede guardar los archivos personales.
+
+
+
+local: Aquí están todos los archivos que nos están en ninguna otra parte, cuando instalas un programa copia Aquí sus archivos. 
+Contiene estas carpetas que estarán vacías si aun no has instalado nada:
+
+bin
+games
+include
+lib
+man
+sbin
+share
+src
+virtual
