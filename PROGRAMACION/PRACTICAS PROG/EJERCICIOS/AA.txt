@@ -4,6 +4,10 @@ En cada factura debe figurar el nombre del articulo, la cantidad en litros y el 
 Se pide tras introducir los productos a facturar, generar las facturas y el total de litros vendidos. 
 Asi como el numero de facturas cuyo importe sea mayor de 600€.
 
+24. 
+Crear una clase que nos indique los caracteres y el numero de veces que aparece cada uno en un texto introducido 
+por teclado y no distinguiremos entre mayusculas y minusculas.	
+
 25. 
 Crear una clase que nos genere aleatoriamente una tabla de 5 por 5 conteniendo
 los resultados (entre 0 y 5 goles) de todos los enfrentamientos entre cinco equipos deportivos.
