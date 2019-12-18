@@ -1,0 +1,1 @@
+SELECT INITCAP(RTRIM(NOMBRE))||REGEXP_REPLACE(TO_CHAR(FECHANAC, '" nació el "dd" de "month" de "yyyy"."'),'*  *',' ') FROM NACIMIENTOS
