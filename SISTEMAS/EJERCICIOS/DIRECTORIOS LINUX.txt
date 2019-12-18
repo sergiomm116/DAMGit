@@ -1,10 +1,10 @@
 /bin: Ejecutables (o binarios) básicos del sistema, cuando, por ejemplo ejecutamos el comando cp en realidad ejecutamos /bin/cp.
 /var: Aquí se almacenan las variables y los logs.
-/usr: En esta carpeta están el resto de archivos de configuración, ejecutables, fuentes, etc...
-/lib: Librerías del sistema.
+/usr: Archivos de configuración, ejecutables, fuentes, etc... 
+/lib: Librerías del sistema. 
 /home: Aquí están las carpetas de cada usuario.
 /boot: Archivos de arranque del sistema.
-/dev: Dispositivos (devices) del sistema.
+/dev: Dispositivos (devices) del sistema. 
 /etc: Archivos básicos de configuración.
 /root: esta es la carpeta privada del root, aquí puede guardar los archivos personales.
 
@@ -18,7 +18,7 @@ games
 include
 lib
 man
-sbin
+sbin 
 share
 src
 virtual
