@@ -12,3 +12,9 @@ por teclado y no distinguiremos entre mayusculas y minusculas.
 Crear una clase que nos genere aleatoriamente una tabla de 5 por 5 conteniendo
 los resultados (entre 0 y 5 goles) de todos los enfrentamientos entre cinco equipos deportivos.
 Clasificar a los equipos en funcion de los resultados (partido ganado: 3, partido empatado: 1, partido perdido: 0).
+
+26.
+Crear una clase que a traves de un metodo recursivo "suma" muestre la suma de todos los numeros enteros comprendidos
+entre 2 introducidos por teclado, el metodo suma recibira como parameto los dos numeros a sumar.
+
+Introducir 2 numeros (3 y 8) Salida: 3+4+5+6+7+8 = 33
