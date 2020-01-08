@@ -18,3 +18,9 @@ Crear una clase que a traves de un metodo recursivo "suma" muestre la suma de to
 entre 2 introducidos por teclado, el metodo suma recibira como parameto los dos numeros a sumar.
 
 Introducir 2 numeros (3 y 8) Salida: 3+4+5+6+7+8 = 33
+
+27.Igual que el 26 pero en vez de recibir dos parametros, recibe el menor de los dos, siendo el mayor una propiedad de 
+la clase.
+
+28. Crear una clase que posea el metodo sobrecargado "suma" de tal forma que sume y retorne el resultado 
+independientemente de los tipos de datos de los sumandos.
