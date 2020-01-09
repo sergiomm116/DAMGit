@@ -7,7 +7,7 @@ independientemente de los tipos de datos de los sumandos.
 public class Ejercicio28{
 	
 	public static void main (String[] args) {
-		Ejercicio28 obj1=new Ejercicio28();			//Necesario porque suma no es estatico (public static int suma)
+		Ejercicio28 obj1=new Ejercicio28();			//Necesario porque la clase suma no es estatica (public static int suma)
 		System.out.println(obj1.suma(51.2,40));		//obj1.suma 
 	
 	}
