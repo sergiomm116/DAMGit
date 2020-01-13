@@ -21,4 +21,4 @@ la clase.
 28. Crear una clase que posea el metodo sobrecargado "suma" de tal forma que sume y retorne el resultado 
 independientemente de los tipos de datos de los sumandos.
 
-29. Ejercicio29.pdf
+29. Ejercicio29.pdf (Piramide botes)
