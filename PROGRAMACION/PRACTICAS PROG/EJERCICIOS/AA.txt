@@ -1,20 +1,24 @@
-23.
-Una empresa que se dedica a la venta de desinfectantes necesita un programa para hacer facturas. 
+23. Una empresa que se dedica a la venta de desinfectantes necesita un programa para hacer facturas. 
 En cada factura debe figurar el nombre del articulo, la cantidad en litros y el precio por litro. 
 Se pide tras introducir los productos a facturar, generar las facturas y el total de litros vendidos. 
 Asi como el numero de facturas cuyo importe sea mayor de 600€.
 
-24. 
-Crear una clase que nos indique los caracteres y el numero de veces que aparece cada uno en un texto introducido 
+24. Crear una clase que nos indique los caracteres y el numero de veces que aparece cada uno en un texto introducido 
 por teclado y no distinguiremos entre mayusculas y minusculas.	
 
-25. 
-Crear una clase que nos genere aleatoriamente una tabla de 5 por 5 conteniendo
+25. Crear una clase que nos genere aleatoriamente una tabla de 5 por 5 conteniendo
 los resultados (entre 0 y 5 goles) de todos los enfrentamientos entre cinco equipos deportivos.
 Clasificar a los equipos en funcion de los resultados (partido ganado: 3, partido empatado: 1, partido perdido: 0).
 
-26.
-Crear una clase que a traves de un metodo recursivo "suma" muestre la suma de todos los numeros enteros comprendidos
+26. Crear una clase que a traves de un metodo recursivo "suma" muestre la suma de todos los numeros enteros comprendidos
 entre 2 introducidos por teclado, el metodo suma recibira como parameto los dos numeros a sumar.
 
 Introducir 2 numeros (3 y 8) Salida: 3+4+5+6+7+8 = 33
+
+27. Igual que el 26 pero en vez de recibir dos parametros, recibe el menor de los dos, siendo el mayor una propiedad de 
+la clase.
+
+28. Crear una clase que posea el metodo sobrecargado "suma" de tal forma que sume y retorne el resultado 
+independientemente de los tipos de datos de los sumandos.
+
+29. Ejercicio29.pdf (Piramide botes)
