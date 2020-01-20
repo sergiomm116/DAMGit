@@ -6,15 +6,90 @@
 		<style>
 		
 			form {width: 390px; height: 900px, margin: 10; padding: 80px; background-color: #be5; align: center; font-family: "Lucida Calligraphy";}
-		
-			
+			.titulo {font-size:22px; font-weight: bold}
+			table {width: 370px; font-size:11px}
+			label {margin-right: 7px; font-weight: bold; font-size: 12px; float: right}
+			input {border-radius: 8px; padding-left: 20px}
+			#nombre {background-image: url("user.png"); background-repeat: no-repeat}
+			#apellidos {background-image: url("user.png"); background-repeat: no-repeat}
+			#telefono {background-image: url("phone.png"); background-repeat: no-repeat}
+			#email {background-image: url("mail.png"); background-repeat: no-repeat}
+			#contraseña {background-image: url("lock.png");background-repeat: no-repeat}
+			#condicion {margin-left: 15px; float: right}
+			#enviar {width: 150px; height: 35px; font-weight: bold}
+			:focus {background-color:yellow; border: 2px; border-style: solid}
 		</style>
 
 </head>
 
 <body>
-	<form>
 	
+	<form action="manejador.html">
+	<div class="titulo">Registro para nuevos usuarios</div>
+	<div class="descuento">Disfruta de un descuento promocional de 30 euros. Solo hasta fin de existencias.</div> 
+	<table>
+		
+			<tr>
+				<td><label>Nombre</label></td>
+				<td><input type="text" id="nombre"></td>
+			</tr>
+			<tr>
+				<td><label>Apellidos</label></td>
+				<td><input type="text" id="apellidos"></td>
+			</tr>
+			<tr>
+				<td><label>Teléfono</label></td>
+				<td><input type="text" id="telefono"></td>
+			</tr>
+			<tr>
+				<td><label>Género</label></td>
+				<td>
+					<input type="radio" name="genero" value="hombre">Hombre
+					<input type="radio" name="genero" value="mujer">Mujer
+				</td>
+			<tr>
+				<td><label>E-mail</label></td>
+				<td><input type="text" id="email"></td>
+			</tr>
+			<tr>
+				<td><label>Contraseña</label></td>
+				<td><input type="pasword" id="contraseña"></td>
+			</tr>
+			<tr>
+				<td><label>Fecha de nacimiento</label></td>
+				<td>
+					<select name="dia">
+						<option value="1">1</option>
+					</select>
+					<select name="mes">
+						<option>enero</option>
+					</select>
+					<select name="año">
+						<option>2010</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Lenguaje</label></td>
+				<td>
+					<select name="lenguaje">
+					<option>Español</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Codigo promocional</label></td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td><input id="condicion" type="checkbox"></td>
+				<td>He leído y acepto las Condiciones de esta promoción y la política de protección de datos. Todos tus datos pasarán a un fichero de nuestro uso exclusivo. Tus datos no serán facilitados a terceros.</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input  type="submit"  id="enviar" value="ENVIAR PEDIDO"></td>
+			</tr>
+	</table>
+	</form>
 </body>
-
 </html>
