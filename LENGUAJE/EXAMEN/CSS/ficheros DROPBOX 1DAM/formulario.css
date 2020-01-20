@@ -1,0 +1,49 @@
+body {
+		background-color: #AAAAAA;
+		font-family: Arial, Helvetica, sans-serif;
+		width: 90%;
+}
+
+header {
+		text-align: center;
+}
+
+h1, h2 {
+		font-family: Georgia, serif;
+}
+
+h1 {
+		font-size:3em;
+}
+
+fieldset {
+		margin: 3em;
+}
+
+legend, label {
+		font-weight: bold;
+}
+legend {
+		font-size: 1.2em;
+		color: blue;
+		text-transform: uppercase;
+}
+input:hover{
+		background-color: red;
+}
+input:focus{
+		background-color: yellow;
+}
+#boton-crear {
+		font-size: 2em;
+		padding: 0.5em;
+}
+
+.inline {
+		display: inline;
+}
+
+.centrado {
+		text-align: center;
+}
+		
