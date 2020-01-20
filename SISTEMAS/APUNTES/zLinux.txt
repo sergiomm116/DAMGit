@@ -1,0 +1,7 @@
+mkdir - Crear carpetas
+touch - Crear ficheros
+cp - Copiar
+cd - Moverse 
+ls - Listar archivos
+sudo su - Superuser
+mv - Cortar
