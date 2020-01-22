@@ -1,0 +1,6 @@
+1. Nombre de las facultades que tienen 2 investigadores adscritos en ellas.
+2. Obtener el DNI y el nombre de los investigadores que han reservado algun equipo que no es de su facultad.
+3. Muestra el nombre y apellidos de los investigadores a cargo de "QUERALT ANGUERA VILAFRANCA" que trabajan en facultades con mas de un investigador asociado.
+4. Muestra IDRESERVA, DNI, IDEQUIPO e informe_fechas (ej. "del martes 9 al jueves 11 de septiembre de 2005") de las reservas del equipo o equipos reservados.
+5. Informacion de las facultades (ID, nombre y ciudad) con algun investigador asignado que sea jefe de otros investigadores, pero que no tenga ningun equipo asignado.
+6. ID y nmbre de la facultado o facultades que menos han gastado al comprar sus equipos.
