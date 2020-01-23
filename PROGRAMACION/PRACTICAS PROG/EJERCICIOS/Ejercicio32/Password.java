@@ -1,21 +1,36 @@
-class Password {
+class Password1 {
 	
 	private int longitud;
-	private String pass;
+	private String contrasenya="";
 	
-	public void Password (){
+	Password1 (){
 		this.longitud=8;
+		generarPassword();
 	}
 	
-	public void Password (int longitud){
+	Password1 (int longitud){
 		this.longitud=longitud;
+		generarPassword();
+	}
+	
+	public String contrasenyaGet(){
+		return contrasenya;
 	}
 	
 	public boolean esFuerte(){
-		return contrasenya.matches(".*[A-Z][a-z]\d{3,}.*");
+		if(contrasenya.matches(".*[A-Z].*")) {
+			if(contrasenya.matches(".*[a-z].*")) {
+				if(contrasenya.matches(".*\\d{1,}.*\\d{1,}.*\\d{1,}")) {
+					return true;
+				}
+				else return false;
+			}
+			else return false;
+		}
+		else return false;
 	}
 	
-	public void generarPassword(){
+	generarPassword (){
 		
 	}
 	

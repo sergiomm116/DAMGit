@@ -22,3 +22,17 @@ la clase.
 independientemente de los tipos de datos de los sumandos.
 
 29. Ejercicio29.pdf (Piramide botes)
+
+INVENTADO. Una empresa que tiene 5 taxis quiere gestionarlos, cada vez que alguien alquila un taxi, ese taxi cobra un
+importe por la carrera, el cliente llama, la centralita revisa si tiene taxis disponibles y le dice el importe.
+La empresa desea saber cuanto dinero ha generado cada uno de los taxis y el total del dinero generado por todos los taxis.
+
+Crear un menu:
+1. Solicitar taxi
+2. Taxis disponibles
+3. Ingresos por taxi
+4. Ingresos totales
+5. Salir
+
+Clase taxi: Diferenciar taxis (matricula), boolean (disponible) e ingresos por taxi.
+Metodos: Sumar importes, disponible/ocupado (get/set), 
