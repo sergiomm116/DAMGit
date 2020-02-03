@@ -1,7 +1,9 @@
 mkdir - Crear carpetas
 touch - Crear ficheros
 cp - Copiar
-cd - Moverse 
+cd - Navegar 
 ls - Listar archivos
 sudo su - Superuser
 mv - Cortar
+nano - Editar
+cat - Visualizar
