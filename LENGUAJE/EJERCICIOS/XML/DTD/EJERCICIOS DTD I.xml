@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EJERCICIO3 SYSTEM [
+  <!ELEMENT email (cc?,cco?,asunto,cuerpo)>]>
+  
+  <email>
+  <cc></cc>
+  <cco></cco>
+  <asunto></asunto>
+  <cuerpo></cuerpo>
+  </email>
