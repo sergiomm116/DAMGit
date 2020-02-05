@@ -1,0 +1,54 @@
+-- EJERCICIO 1 --
+
+UPDATE EMPLEADOS
+SET SUELDO=SUELDO*1.1
+WHERE CODIGOSUCURSAL IN (SELECT CODIGO FROM SUCURSAL WHERE CIUDAD='Cruz del Eje')
+
+-- EJERCICIO 2 --
+
+UPDATE EMPLEADOS
+SET SUELDO=SUELDO*1.2
+SELECT * FROM EMPLEADOS
+WHERE CODIGOSUCURSAL IN (SELECT CODIGO FROM SUCURSAL WHERE PROVINCIA='Cordoba')
+
+-- EJERCICIO 3 --
+
+UPDATE EMPLEADOS
+SET (SUELDO, CODIGOSUCURSAL) = (SELECT SUELDO, CODIGOSUCURSAL 
+                                FROM EMPLEADOS 
+                                WHERE NOMBRE = 'Maria Morales')
+WHERE NOMBRE = 'Ana Acosta'
+
+-- EJERCICIO 4 --
+
+UPDATE EMPLEADOS
+SET (SUELDO=(SELECT SUELDO FROM EMPLEADOS WHERE NOMBRE = 'Maria Morales'),
+CODIGOSUCURSAL = (SELECT CODIGO FROM SUCURSAL WHERE CIUDAD='La Plata')
+WHERE NOMBRE = 'Carlos Caseros'
+
+-- EJERCICIO 5 --
+
+DELETE EMPLEADOS
+WHERE CODIGOSUCURSAL IN (SELECT CODIGO FROM SUCURSAL WHERE PROVINCIA='Cordoba')
+
+-- EJERCICIO 6 --
+
+INSERT INTO EMPLEADOS
+SELECT '8800880', 'Jacinto Sánchez', CODIGOSUCURSAL, ROUND(SUELDO/2)
+FROM EMPLEADOS
+WHERE NOMBRE = 'Gabriela Gonzalez'
+
+-- EJERCICIO 7 -- 
+-- Hay dos sucursales que coinciden con el numero total de empleados.
+-- Esto inserta dos veces al nuevo empleado. Esto genera un mensaje 
+-- de error indicando que la clave primaria no se puede repetir.
+
+INSERT INTO EMPLEADOS
+SELECT 12000000, 'Sergio Martínez', CODIGOSUCURSAL, '999'
+FROM EMPLEADOS
+WHERE CODIGOSUCURSAL IN (SELECT CODIGOSUCURSAL 
+                         FROM EMPLEADOS 
+                         GROUP BY CODIGOSUCURSAL 
+                         HAVING COUNT(*) = (SELECT MIN(COUNT(*)) 
+                                            FROM EMPLEADOS 
+                                            GROUP BY CODIGOSUCURSAL))

@@ -16,13 +16,13 @@ public class GestionTemporizadores {
 		//~ t2.nombreSet("Temp2");
 		
 		//~ Nombre de T2
-		//~ System.out.println(t2.nombreGet());
+		System.out.println(t2.nombreGet());
 		
 		//~ Segundos de T1
 		//~ System.out.println(t1.segundosGet());
 		
 		//~ Ejecucion del metodo cuenta
-		t1.cuenta();
+		//~ t1.cuenta();
 		
 		
 		

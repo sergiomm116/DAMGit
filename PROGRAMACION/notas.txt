@@ -1,0 +1,10 @@
+NOTAS PROG;
+
+-Herencias 
+
+	Centro de enseñanza. Crearemos dos alumnos y somos los profesores de asignatura X, pondremos la nota de ambos alumnos. 
+	Una vez puesta la nota visualizaremos de los datos de los alumnos. Los datos se introduciran por teclado.
+
+	Tendremos que guardar el nombre, DNI, matricula y nota.
+
+	Funciones: Cambiar los datos como queramos.

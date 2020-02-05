@@ -11,24 +11,24 @@ public class Temporizador {
 	}
 	
 	//~ Metodo Get para el nombre
-	//~ public String nombreGet (){
-		//~ return nombre;
-	//~ }
+	public String nombreGet (){
+		return nombre;
+	}
 	
 	//~ Metodo Get para los segundos
-	//~ public int segundosGet (){
-		//~ return segundos;
-	//~ }
+	public int segundosGet (){
+		return segundos;
+	}
 	
 	//~ Metodo Set para los segundos
-	//~ public void segundosSet (int segundos){
-		//~ this.segundos=segundos;
-	//~ }
+	public void segundosSet (int segundos){
+		this.segundos=segundos;
+	}
 	
 	//~ Metodo Set para el nombre
-	//~ public void nombreSet (String nombre){
-		//~ this.nombre=nombre;
-	//~ }
+	public void nombreSet (String nombre){
+		this.nombre=nombre;
+	}
 	
 	public void cuenta() throws InterruptedException{
 		System.out.println("Inicio del temporizador "+nombre+" de "+segundos+" segundos.");
