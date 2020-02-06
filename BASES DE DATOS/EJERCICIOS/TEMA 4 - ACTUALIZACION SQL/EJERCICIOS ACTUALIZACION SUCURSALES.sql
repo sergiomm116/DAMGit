@@ -44,7 +44,7 @@ WHERE NOMBRE = 'Gabriela Gonzalez'
 -- de error indicando que la clave primaria no se puede repetir.
 
 INSERT INTO EMPLEADOS
-SELECT 12000000, 'Sergio Martínez', CODIGOSUCURSAL, '999'
+SELECT '12000000', 'Sergio Martínez', CODIGOSUCURSAL, '999'
 FROM EMPLEADOS
 WHERE CODIGOSUCURSAL IN (SELECT CODIGOSUCURSAL 
                          FROM EMPLEADOS 
