@@ -1,0 +1,4 @@
+1. C) <!ELEMENT gruposanguineo (A | B | AB | 0 )>
+
+2. A) <!ELEMENT contenido (alfa | beta )*>   tanto alfa como beta pueden aparecer  0 ó más veces
+   D) <!ELEMENT contenido (alfa , beta *)>   el elemento alfa aparece 1 vez y después beta puede aparecer 0 ó más veces

@@ -1,0 +1,5 @@
+<!ELEMENT contrato (clausula+)>
+<!ELEMENT clausula ((epigrafe, desarrollo)+,epilogo)>
+<!ELEMENT epigrafe (#PCDATA)>
+<!ELEMENT desarrollo (#PCDATA)>
+<!ELEMENT epilogo (#PCDATA)>

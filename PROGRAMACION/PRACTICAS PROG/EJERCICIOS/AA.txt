@@ -35,4 +35,8 @@ Crear un menu:
 5. Salir
 
 Clase taxi: Diferenciar taxis (matricula), boolean (disponible) e ingresos por taxi.
-Metodos: Sumar importes, disponible/ocupado (get/set), 
+Metodos: Sumar importes, disponible/ocupado (get/set)
+
+
+
+33. Ejercicio33.pdf

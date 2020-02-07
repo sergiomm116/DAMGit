@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contrato SYSTEM "EJERCICIO3.dtd">
+<contrato>
+    <clausula>
+      <epigrafe>Epigrafe 1</epigrafe>
+      <desarrollo>Desarrollo 1</desarrollo>
+      <epigrafe>Epigrafe 2</epigrafe>
+      <desarrollo>Desarrollo 2</desarrollo>
+      <epilogo>Epilogo 1</epilogo>
+    </clausula>
+    <clausula>
+      <epigrafe>Epigrafe 3</epigrafe>
+      <desarrollo>Desarrollo 3</desarrollo>
+      <epigrafe>Epigrafe 4</epigrafe>
+      <desarrollo>Desarrollo 4</desarrollo>
+      <epilogo>Epilogo 2</epilogo>
+    </clausula>
+</contrato>

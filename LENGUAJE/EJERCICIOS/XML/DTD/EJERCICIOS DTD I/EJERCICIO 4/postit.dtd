@@ -1,0 +1,5 @@
+<!ELEMENT postit (fecha,quien,texto)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT quien (#PCDATA)>
+<!ELEMENT texto (#PCDATA | bf)*>
+<!ELEMENT bf (#PCDATA)>

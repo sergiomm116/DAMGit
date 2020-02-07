@@ -1,6 +1,0 @@
-Herencia
-
-Partimos de una clase madre, creamos una clase hija y creamos objetos de la clase hija.
-Podremos manejar todos los metodos y propiedades de ambas.
-
-
