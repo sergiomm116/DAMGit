@@ -1,37 +1,23 @@
-import java.util.Scanner;
-
-class Cuentas {
+class CuentaBancaria{
 	
-	protected String nombre;
-	protected int saldo;
-	protected int retirada;
-	protected int ingreso;
+	protected double saldo;
 	
+	CuentaBancaria(double saldo){
+		this.saldo = saldo;
 	
-	protected void retirar(){
-		saldo-=retirada;
 	}
-		
-	protected void ingresar(){
-		saldo+=ingreso;
+	
+	public void ingresar (double ingreso) {
+
+		saldo += ingreso;
+
+		System.out.println("Se ingresaron " + ingreso + " euros");
+
 	}
-}
-	
-class Corriente extends Cuentas{
 
-}
-class Ahorro extends Cuentas{
-	
-}
-class L_2020 extends Cuentas{
+	public double saldoGet() {
 
-}
+		return saldo;
 
-
-public class Ejercicio33{
-	
-	public static void main (String[] args) {
-		
 	}
 }
-
