@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventores [
+  <!ELEMENT inventores (inventor*)>
+  <!ELEMENT inventor EMPTY>
+  <!ATTLIST inventor invento CDATA #REQUIRED>
+  <!ATTLIST inventor nombre NMTOKENS #IMPLIED>
+]>
+
+<inventores>
+<inventor nombre="Robert Adler" invento="Mando a distancia" />
+<inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
+<inventor nombre="Josephine Garis Cochran" invento="Lavaplatos" />
+<inventor invento="Fuego" />
+</inventores>
+
+
+<!-- 
+Se añade "<!ELEMENT inventores (inventor*)>" ya que no estaba definido este elemento.
+Se sustituye "inventor nombre ID" por "inventor nombre NMTOKENS" ya que tiene espacios.
+Se sustituye "nombre #REQUIRED" por "nombre #IMPLIED" ya que hay elementos que no tienen este atributo.
+-->

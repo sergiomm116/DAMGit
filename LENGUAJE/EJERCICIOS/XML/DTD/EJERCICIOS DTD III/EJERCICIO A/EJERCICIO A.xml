@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+<!ELEMENT persona EMPTY>
+<!ATTLIST persona dni CDATA #IMPLIED>
+]>
+<persona dni="03141592E" />
+
+<!-- "persona nombre" no existe, se sustituye por "persona dni" -->
