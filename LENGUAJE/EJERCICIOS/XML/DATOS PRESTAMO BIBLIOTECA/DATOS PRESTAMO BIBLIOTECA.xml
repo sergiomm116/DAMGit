@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prestamos>
+    <prestamo id="345">
+        <bibliotecario>
+            <nombre></nombre>
+            <apellido1></apellido1>
+            <apellido2></apellido2>
+        </bibliotecario>
+        <fecha>
+            <fec_pres></fec_pres>
+            <fec_dev></fec_dev>
+        </fecha>
+        <lector id="">
+            <nombre></nombre>
+            <apellido1></apellido1>
+            <apellido2></apellido2>
+            <telefono></telefono>
+                <direccion>
+                    <tipo></tipo>
+                    <nombre></nombre>
+                    <numero></numero>
+                    <piso></piso>
+                    <letra></letra>
+                    <codpostal></codpostal>
+                    <localidad></localidad>
+                    <provincia></provincia>
+                </direccion>
+        </lector>
+    </prestamo>
+    <libros>
+        <libro id="123">
+            <titulo>Mi libro</titulo>
+            <autores>
+              <autor>Autor1</autor>
+              <autor>Autor2</autor>
+              <autor>Autor3</autor>
+            </autores>
+        </libro>
+        <libro id="987">
+            <titulo>Tu libro</titulo>
+            <autores>
+            <autor>Autor4</autor>
+            <autor>Autor5</autor>
+            </autores>
+        </libro>
+    </libros>
+</prestamos>

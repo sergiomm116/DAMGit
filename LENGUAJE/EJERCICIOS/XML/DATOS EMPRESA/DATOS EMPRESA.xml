@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+    <empleado id="1">
+        <nombre>Juan</nombre>
+        <apellido1>Lopez</apellido1>
+        <apellido2>Sanchez</apellido2>
+        <telefonos>
+            <telefono>222222222</telefono>
+            <telefono>243454523</telefono>
+            <telefono>453234564</telefono>
+        </telefonos>
+    </empleado>
+</empleados>
