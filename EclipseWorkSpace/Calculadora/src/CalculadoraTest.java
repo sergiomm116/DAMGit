@@ -1,57 +1,59 @@
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CalculadoraTest {
-
+class CalculadoraTest {
 
 	@Test
-	public void testSuma() {
-		Calculadora calcu = new Calculadora(20, 10);
+	void testCalculadora() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSuma() {
+		Calculadora calcu = new Calculadora (20, 10);
 		int resultado = calcu.suma();
 		assertEquals(30, resultado);
 	}
 
 	@Test
-	public void testResta() {
-		Calculadora calcu = new Calculadora(10, 20);
+	void testResta() {
+		Calculadora calcu = new Calculadora (20, 10);
 		int resultado = calcu.resta();
 		assertEquals(10, resultado);
 	}
 	
 	@Test
-	public void testResta2() {
-		Calculadora calcu = new Calculadora(10, 20);
-		int resultado = calcu.resta();
-		assertNull(10, resultado);
+	void testResta2() {
+		Calculadora cal1 = new Calculadora (5, 7);
+		Calculadora cal2 = new Calculadora (7, 3);
+		
+		assertTrue(cal1.resta2(), "Se usaria una resta ordenada");
+		assertTrue(cal2.resta2(), "Se usaria una resta normal");
 	}
-	
-	
-	
 
 	@Test
-	public void testMultiplica() {
-		Calculadora calcu = new Calculadora(20, 50);
+	void testDivide2() {
+		Calculadora cal1 = new Calculadora (5, 0);
+		Calculadora cal2 = new Calculadora (7, 3);
+		
+		assertNull(cal1.divide2(), "");
+		assertNotNull(cal2.divide2(), "");
+		assertEquals(cal2.divide2(), "");
+	}
+
+	@Test
+	void testMultiplica() {
+		Calculadora calcu = new Calculadora (20, 10);
 		int resultado = calcu.multiplica();
-		assertEquals("Fallo en la multiplicación :",200, resultado);	
+		assertEquals(200, resultado);
 	}
 
 	@Test
-	public void testDivide() {
-		Calculadora calcu = new Calculadora(20, 10);
+	void testDivide() {
+		Calculadora calcu = new Calculadora (20, 10);
 		int resultado = calcu.divide();
-		assertEquals(2, resultado);	
-	}
-	
-	@Test
-	public void testException() {
-		try {
-			Calculadora calcu = new Calculadora (20, 0);
-			int resultado = calcu.divide();
-			fail("FALLO, Deberia haber lanzado la excepción");
-			} catch (ArithmeticException e) {
-				//PRUEBA satisfactoria
-		}
+		assertEquals(2, resultado);
 	}
 
 }
