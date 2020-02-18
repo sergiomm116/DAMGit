@@ -5,6 +5,7 @@ class Producto {
 	public Producto (String fechacad, String numerolote){
 		this.fechacad = fechacad;
 		this.numerolote = numerolote;
+	
 	}	
    
 	public void fechaSet(String fecha){
