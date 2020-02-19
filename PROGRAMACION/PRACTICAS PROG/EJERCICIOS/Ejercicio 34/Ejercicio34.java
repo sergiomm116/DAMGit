@@ -1,4 +1,5 @@
 class Producto {
+	
 	protected String fechacad;
 	protected String numerolote;
    
@@ -7,25 +8,14 @@ class Producto {
 		this.numerolote = numerolote;
 	
 	}	
-   
-	public void fechaSet(String fecha){
-	   this.fechacad = fecha;
-	}
-	
+ 
 	public String fechacadGet(){
       return fechacad;
 	}
    
-	public void numeroSet(String numero){
-	   this.numerolote = numero;
-	}
-   
 	public String numeroloteGet(){
       return numerolote;
-	}
-   
-   
-   
+	}   
 }
 class Fresco extends Producto {
 	
@@ -59,7 +49,6 @@ class Refrigerado extends Producto {
 		super(fechacad, numerolote);
 		this.codigo = codigo;
 	}
-	
 }
 class Congelado extends Producto {
 	
@@ -68,11 +57,11 @@ class Congelado extends Producto {
 	public String tempGet(){
 	  return temp;
 	}
+	
 	public Congelado (String fechacad, String numerolote, String temp){
 		super(fechacad, numerolote);
 		this.temp = temp;
 	}
-	
 }
 class Ejercicio34 {
 	public static void main(String[] args) {

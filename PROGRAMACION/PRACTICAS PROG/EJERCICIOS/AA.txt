@@ -40,3 +40,9 @@ Metodos: Sumar importes, disponible/ocupado (get/set)
 
 
 33. Ejercicio33.pdf
+
+34. 34.pdf
+
+35. Crear la clase final Math2 (clase similar a Math) (metodos estaticos: maximo, minimo, sumatorio y media).
+Los metodos recogeran un array de numeros double y devolveran el resultado que corresponda. (Maximo: El mas grande, etc...)
+Crear una clase Ejercicio35 para probar la clase Math2, crearemos en ella un array de 6 elementos y llamaremos a los 4 metodos.

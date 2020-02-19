@@ -1,0 +1,14 @@
+1. El hermano del investigador con DNI "234353433P" se incorpora a la misma facultad que este ultimo. El nuevo empleado se llama
+"EDUARDO", tiene el DNI "321321321R" y trabaja a cargo del mismo investigador que su hermano.
+
+2. Modifica el nombre de los investigadores, añadiendo la cadena "JEFE" al investigador o investigadores
+que tengan a su cargo más de 1 investigador.
+
+3. Se pide eliminar los equipos que no se han reservado nunca y los que tengan alguna reserva con fecha de inicio anterior a 12/09/05
+
+4. Aplicar un descuento de 10% a los equipos asociados a la facultad "Ciencias Naturales" de "Barcelona" y que no se han reservado nunca
+
+5. Inserta un nuevo equipo con IDEQUIPO "K232" y de nombre "Microprocesador i7", asociado a la misma facultad que la "Camara Digital SONY"
+y con doble de precio de esta.
+
+6. Borra la facultad o facultades que mas gastaron en equipos.
