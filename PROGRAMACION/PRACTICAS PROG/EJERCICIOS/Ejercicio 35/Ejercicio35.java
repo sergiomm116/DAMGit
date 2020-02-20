@@ -5,7 +5,7 @@ public class Ejercicio35 {
 		
 		for(int i = 0; i <=5; i++){
 			double aux = 0;
-			aux = (Math.random()*10+1);
+			aux = (Math.random()*99+1);
 			numeros[i]= aux;
 		}
 		
