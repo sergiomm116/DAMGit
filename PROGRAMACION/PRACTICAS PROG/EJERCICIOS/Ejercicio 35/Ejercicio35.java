@@ -3,9 +3,13 @@ public class Ejercicio35 {
 	public static void main (String[] args) {
 		double numeros[] =  new double[6];
 		
-		for(int i = 0; i <=5; i++){
+		for(int i = 0; i <=(numeros.length-1); i++){
 			double aux = 0;
+<<<<<<< HEAD
 			aux = (Math.random()*99+1);
+=======
+			aux = (Math.random()*9+1);
+>>>>>>> f6eecd5b01811161337bb1515d1419645f97299f
 			numeros[i]= aux;
 		}
 		
