@@ -2,11 +2,10 @@ public final class Math2{
 	
 
 	static void ordenar(double[] numeros){				//Metodo de la burbuja ascendente
-		int n = numeros.length;
-		double aux = 0;
+		double aux;
 		
-		for(int i=0; i < n; i++){
-			for(int j=1; j < (n-i); j++){
+		for(int i=0; i < numeros.length; i++){
+			for(int j=1; j < (numeros.length-i); j++){
 				if(numeros[j-1] > numeros[j]){
 					aux = numeros[j-1];
                     numeros[j-1] = numeros[j];
@@ -33,7 +32,7 @@ public final class Math2{
 	
 	static double maximo (double numeros[]){			//Con burbuja
 		ordenar(numeros);
-		return numeros[5];
+		return numeros[numeros.length-1];
 	}
 	
 	static double maximo2 (double[] numeros){			//Sin burbuja
@@ -46,10 +45,11 @@ public final class Math2{
 		return n;
 	}
 	
+	
 	static double sumatorio (double numeros[]){
 		double suma = 0;
-		for(int i = 0; i < numeros.length; i++){
-			suma +=numeros[i];
+		for (double n : numeros) {
+			suma+=n;
 		}
 		return suma;
 	}
