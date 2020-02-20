@@ -3,9 +3,9 @@ public class Ejercicio35 {
 	public static void main (String[] args) {
 		double numeros[] =  new double[6];
 		
-		for(int i = 0; i <=5; i++){
+		for(int i = 0; i <=(numeros.length-1); i++){
 			double aux = 0;
-			aux = (Math.random()*10+1);
+			aux = (Math.random()*9+1);
 			numeros[i]= aux;
 		}
 		
