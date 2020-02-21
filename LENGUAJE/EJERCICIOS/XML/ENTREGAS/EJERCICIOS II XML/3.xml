@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EJERCICIO_II_XML>
+  
+  
+<!-- a -->
+<!-- Falta elemento raiz-->
+<personas>
+  <persona> 
+    <nombre>Pedro</nombre>
+    <DNI>123456789</DNI>
+  </persona> 
+  <persona> 
+    <nombre>María</nombre>
+    <DNI>987654321</DNI> 
+  </persona>
+</personas>
+  
+  
+  
+<!-- b -->
+<!-- Bien formado-->
+<texto>Esto es un<negrita>texto</negrita>con formato</texto>
+
+
+<!-- c -->
+<!-- Mal orden-->
+<texto>Esto es un<cursiva><negrita>texto</negrita> con más</cursiva>formato.</texto>
+   
+   
+   
+<!-- d -->
+<!-- Bien formado -->
+<coche>
+  <marca>Peugeot</marca>
+  <modelo>205</modelo>
+</coche> 
+
+   
+<!-- e -->
+<!-- Bien formado --> 
+<amigos> 
+  <amigo direccion="Avenida de la Felicidad"> Horacio Oliveira</amigo> 
+  <amigo direccion="Calle de las Aceitunas"> Pilarín Cañete</amigo>
+</amigos> 
+    
+<!-- f -->
+<!-- Atributos con el mismo nombre, mejor separados -->
+<amigos>
+  <amigo>
+    <nombre>Horacio Oliveira </nombre>
+    <telefonos>
+        <telefono>999999999 </telefono>
+        <telefono>666666666 </telefono>
+      </telefonos>
+    </amigo>
+    <amigo>
+      <nombre>Pilarin Cañete</nombre>
+      <telefonos>
+        <telefono>933333333</telefono>
+      </telefonos>
+    </amigo>
+   </amigos>
+   
+   
+<!-- g -->
+<!-- <inecuacion> sin cierre y simbolo especial "<" -->
+<ejercicio>Encuentra la solución de la inecuación: <inecuacion>2*x&lt;37</inecuacion></ejercicio>
+
+</EJERCICIO_II_XML>

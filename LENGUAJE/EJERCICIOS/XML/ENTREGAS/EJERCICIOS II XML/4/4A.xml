@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<datos_personales>
+  <DNI>99999999X</DNI>  
+  <nombre>Sergio</nombre>
+  <apellido1>Martínez</apellido1>
+  <apellido2>Martínez</apellido2>
+  <fecha_nacimiento>
+    <dia>11</dia>
+    <mes>6</mes>
+    <año>1998</año>
+  </fecha_nacimiento>
+  <direccion>
+    <calle>Ortega y Gasset</calle>    
+    <numero>4</numero>
+    <poblacion>Cuenca</poblacion>
+    <pais>España</pais>    
+    <codigo_postal>16004</codigo_postal>
+  </direccion>
+  <telefonos>
+    <telefono>656592092</telefono>
+  </telefonos>
+  <cuentas_correo>
+    <email>sergio.mm116@gmail.com</email>
+  </cuentas_correo>
+</datos_personales>

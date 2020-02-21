@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<contactos>
+  <contacto>
+    <DNI>04628579J</DNI>  
+    <nombre>Sergio</nombre>
+    <apellido1>Martínez</apellido1>
+    <apellido2>Martínez</apellido2>
+    <fecha_nacimiento>
+      <dia>11</dia>
+      <mes>6</mes>
+       <año>1998</año>
+    </fecha_nacimiento>
+    <direccion>
+      <calle>Ortega y Gasset</calle>    
+      <numero>4</numero>
+      <poblacion>Cuenca</poblacion>
+      <pais>España</pais>    
+      <codigo_postal>16004</codigo_postal>
+    </direccion>
+     <telefonos>
+        <telefono>656592092</telefono>
+      </telefonos>
+      <cuentas_correo>
+        <email>sergio.mm116@gmail.com</email>
+      </cuentas_correo>
+  </contacto>
+  <contacto>
+    <DNI>12341234A</DNI>  
+    <nombre>Antonio</nombre>
+    <apellido1>Perez</apellido1>
+    <apellido2>Sanchez</apellido2>
+    <fecha_nacimiento>
+      <dia>23</dia>
+      <mes>4</mes>
+      <año>1997</año>
+    </fecha_nacimiento>
+    <direccion>
+      <calle>Fermin Caballero</calle>    
+      <numero>13</numero>
+      <poblacion>Cuenca</poblacion>
+      <pais>España</pais>    
+      <codigo_postal>16003</codigo_postal>
+    </direccion>
+    <telefonos>
+      <telefono>646446132</telefono>
+      <telefono>632413123</telefono>
+    </telefonos>
+    <cuentas_correo>
+      <email>anpesa@gmail.com</email>
+      <email>antonio.perez@gmail.com</email>
+    </cuentas_correo>
+  </contacto>
+</contactos>

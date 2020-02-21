@@ -1,0 +1,20 @@
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+<unidades_almacenamiento>
+  <unidad id="A">
+    <directorio nombre="apuntes" fecha_modificacion="22/1/1998">
+      <fichero extension="doc" fecha_modificacion="10/12/2018" tamaño="10kb"> mates </fichero>
+      <fichero extension="doc" fecha_modificacion="2/5/1999" tamaño="50kb"> lengua </fichero>
+    </directorio>
+    <directorio nombre="material" fecha_modificacion="31/3/2014"> </directorio>
+  </unidad>
+  <unidad id="C">
+    <directorio nombre="sistemas operativos" fecha_modificacion="7/8/2002">
+      <fichero extension="txt" fecha_modificacion="23/2/2000" tamaño="1kb"> informacion </fichero>
+      <directorio nombre="windows" fecha_modificacion="3/9/2012">
+        <fichero extension="ini" fecha_modificacion="11/3/2015" tamaño="2kb"> config </fichero>
+      </directorio>
+        <directorio nombre="linux" fecha_modificacion="19/1/2018">
+      </directorio>
+    </directorio>
+  </unidad>
+</unidades_almacenamiento>

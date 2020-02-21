@@ -1,0 +1,6 @@
+<!ELEMENT empleado (nombre, apellidos, dni?, telefono?, direccion+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
