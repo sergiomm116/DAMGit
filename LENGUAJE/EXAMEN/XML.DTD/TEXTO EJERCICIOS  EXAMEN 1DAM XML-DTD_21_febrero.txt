@@ -1,0 +1,53 @@
+EJERCICIO 1 DIRECTORIO.DTD
+
+<!ELEMENT sistema (unidad*)>
+<!ELEMENT unidad (directorio | fichero)* >
+<!ELEMENT directorio (nombre, fecha , (directorio | fichero)*) >
+<!ELEMENT fichero (nombre, fecha) >
+
+<!ATTLIST fichero
+	tamano  CDATA  #REQUIRED
+>
+
+<!ATTLIST unidad 
+	letra  ID  #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT fecha (dia, mes, anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+
+
+EJERCICIO 2 UNIVERSIDAD.DTD
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE universidad SYSTEM "universidad.dtd">
+<universidad>
+	<alumnos>
+		<alumno>
+			<nombre>pepe</nombre>
+			<apellido>pinillos</apellido>
+			<pasaporte>434235</pasaporte>
+			<fechanacimiento>
+				<dia>32</dia>
+				<mes>43</mes>
+				<anio>5256</anio>
+			</fechanacimiento>
+			<matriculado materia="F89" nota="NT"/>
+		</alumno>
+	</alumnos>
+	<asignaturas>
+		<asignatura codigo="F89">
+			<titulo>Lenguajes Marcas</titulo>
+			<carrera>ITIS</carrera>
+			<creditos>4,5</creditos>
+			<curso>OP</curso>
+		</asignatura>
+		<asignatura codigo="A990">
+			<titulo>Bases de datos</titulo>
+			<carrera>ITGEST</carrera>
+		</asignatura>
+	</asignaturas>
+</universidad>

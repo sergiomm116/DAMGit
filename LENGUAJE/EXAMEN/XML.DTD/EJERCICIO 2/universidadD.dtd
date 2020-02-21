@@ -1,0 +1,24 @@
+<!ELEMENT universidad (alumnos,asignaturas)>
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre,apellido,apellido?,(NIF | pasaporte),fechanacimiento,matriculado)>
+<!ELEMENT asignaturas (asignatura+)>
+<!ELEMENT asignatura (titulo,carrera,creditos?,curso?)>
+<!ELEMENT fechanacimiento (dia,mes,anio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT pasaporte (#PCDATA)>
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>
+<!ELEMENT creditos (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT matriculado EMPTY>
+<!ATTLIST matriculado 
+                    materia IDREF #REQUIRED
+                    nota (NP| IN|SF|BI|NT|SB|MH) "NP">
+ <!ATTLIST asignatura
+                      codigo ID #REQUIRED>                 
+                    

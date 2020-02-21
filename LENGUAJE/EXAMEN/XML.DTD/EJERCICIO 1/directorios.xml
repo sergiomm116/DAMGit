@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sistema SYSTEM "directorios.dtd">
+
+<sistema>
+
+  <unidad letra="A">
+  
+    <fichero tamano="100">
+      <nombre>ficheroA1.txt</nombre>
+      <fecha><dia>15</dia><mes>02</mes><anio>2020</anio></fecha>
+    </fichero>
+    
+    <fichero tamano="150">
+      <nombre>ficheroA2.txt</nombre>
+      <fecha><dia>16</dia><mes>02</mes><anio>2020</anio></fecha>
+    </fichero>
+    
+  </unidad>
+  
+  <unidad letra="D">
+  
+    <directorio>
+      <nombre>dirD1</nombre>
+      <fecha><dia>17</dia><mes>02</mes><anio>2020</anio></fecha>
+    </directorio>
+    
+  </unidad>
+  
+  <unidad letra="C">
+  
+    <fichero tamano="200">
+      <nombre>ficheroC1</nombre>
+      <fecha><dia>18</dia><mes>02</mes><anio>2020</anio></fecha>
+    </fichero>
+    
+    <directorio>
+      <nombre>dirC1</nombre>
+      <fecha><dia>21</dia><mes>02</mes><anio>2020</anio></fecha>
+      
+        <fichero tamano="200">
+          <nombre>ficheroC11</nombre>
+          <fecha><dia>19</dia><mes>02</mes><anio>2020</anio></fecha>
+        </fichero>
+        
+        <directorio>
+          <nombre>dirC11</nombre>
+          <fecha><dia>20</dia><mes>02</mes><anio>2020</anio></fecha>
+        </directorio>
+        
+        <directorio>
+          <nombre>dirC12</nombre>
+          <fecha><dia>21</dia><mes>02</mes><anio>2020</anio></fecha>
+        </directorio>
+        
+    </directorio>
+    
+  </unidad>
+  
+</sistema>
