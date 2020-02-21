@@ -1,0 +1,14 @@
+<!ELEMENT sistema (unidad*)>
+<!ELEMENT unidad (directorio | fichero)* >
+<!ELEMENT directorio (nombre, fecha , (directorio | fichero)*) >
+<!ELEMENT fichero (nombre, fecha) >
+
+<!ATTLIST fichero tamano  CDATA  #REQUIRED>
+
+<!ATTLIST unidad letra  ID  #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT fecha (dia, mes, anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
