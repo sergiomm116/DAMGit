@@ -1,31 +1,7 @@
-class Monedero{
-
-	private String nombrem;
-	private int saldo;
+public class Monedero {
 	
-	
-	Monedero (String nombrem, int saldo){
-		this.nombrem=nombrem;
-		this.saldo=saldo;
-	}
-	
-	String nombreGet(){
-		return nombrem;
-	}
-	
-	int saldoGet(){
-		return saldo;
-	}
-	
-	void reintegro (int dinero){
-		if (saldo>=dinero)
-			saldo-=dinero;
-		else 
-			System.out.println("Dispone de: "+saldo);	
-	}
+	public static void main (String[] args) {
 		
-	void ingreso (int dinero){
-		saldo+=dinero;
 	}
 }
 

@@ -1,14 +1,65 @@
-23. Una empresa que se dedica a la venta de desinfectantes necesita un programa para hacer facturas. 
-En cada factura debe figurar el nombre del articulo, la cantidad en litros y el precio por litro. 
-Se pide tras introducir los productos a facturar, generar las facturas y el total de litros vendidos. 
-Asi como el numero de facturas cuyo importe sea mayor de 600€.
+1. Crear una clase Java que intercambie entre sí el valor de 2 variables enteras
+2. Crear una clase que calcule en centímetros la longitud de la circunferencia y la
+superficie dado un radio r = 2m
+3. Crear una clase donde dado un importe en euros, introducido por teclado, nos indique
+el número de billetes necesarios de cada clase de billete y la cantidad sobrante
+4. Crear una clase que genere aleatoriamente una letra minúscula y determine si es vocal
+o no lo es mostrando el siguiente mensaje: “La letra _ es vocal : true / false”
 
-24. Crear una clase que nos indique los caracteres y el numero de veces que aparece cada uno en un texto introducido 
-por teclado y no distinguiremos entre mayusculas y minusculas.	
+5. Crear una clase que pida por teclado 3 números enteros y los muestre por pantalla, ordenados de menor a mayor. La salida “Entrada: n1, n2, n3 ; Salida: menor, medio, mayor”
 
-25. Crear una clase que nos genere aleatoriamente una tabla de 5 por 5 conteniendo
-los resultados (entre 0 y 5 goles) de todos los enfrentamientos entre cinco equipos deportivos.
-Clasificar a los equipos en funcion de los resultados (partido ganado: 3, partido empatado: 1, partido perdido: 0).
+6. Crear un menú con las siguientes opciones:
+	1.- Área de rectángulo
+	-Preguntar dimensiones y calcular
+	2.- Área de triángulo
+	3.- Área de círculo
+	4.- Salir
+7.   Crear una clase que muestre el número de días que corresponde a un determinado      mes de un determinado año e introduciendo ambos como entero por teclado.
+8.   Crear una clase para adivinar un número entre 1 y 20 generado al azar. Tras cada intento fallido debe pedir un nuevo intento aportándonos como pista mayor o menor. Cuando se acierte el número mostrará por pantalla “Correcto en --- intentos”
+9. Crear una clase que acepte como entrada un número entero positivo y lo muestre convertido a binario, mostrando la siguiente salida “El numero ___ en binario es ______”
+10. Mostrar por pantalla un rectángulo construido con asteriscos cuyo ancho y alto introduciremos por teclado
+11. Crear una clase que muestre una pirámide construida con asteriscos, el número de filas de la pirámide se pide por teclado
+12. Crear una clase que muestre un rombo construido con asteriscos, el número de asteriscos de la base se pide por teclado
+13. Crear una clase que pida por teclado un número entero entre 0 y 99 y lo muestre por pantalla escrito en letra
+14. Crear una clase que pida por teclado diez números enteros, mostrando por pantalla la media de los números positivos, la media de los números negativos y el número de valores 0 introducidos
+15. Crear una clase que muestre un contador de 3 dígitos entre 000 y 999 (Sobre el mismo número, no verlo a continuación)
+16. Crear una clase que nos pida por teclado un número entero y muestre como salida y separados por comas los números primos que hay entre 1 y N
+17. Crear una clase que nos muestre por pantalla el factorial de un numero introducido por teclado, la salida debe ser “El factorial de --- es ---“
+
+
+
+18. Crear una clase que lea cinco números enteros por teclado y los muestre ordenados de
+menor a mayor
+
+19. Crear una clase que genere seis números aleatorios comprendidos entre 1 y 49, ambos
+inclusive y los muestre ordenados de menor a mayor
+
+20. Crea un array con un tamaño introducido por teclado que llenamos con números enteros
+aleatorios entre 1 y 300. Posteriormente mostrará los valores del array separados por comas.
+Posteriormente nos solicitará que introduzcamos por teclado un número entre 1 y 300 y nos
+mostrará por pantalla el índice en el que está el valor introducido.
+
+21. Crear dos arrays del mismo tamaño, establecido por un número introducido por teclado.
+Rellenar el primer array con letras minúsculas generadas aleatoriamente, el segundo con
+números aleatorios enteros que correspondan en rango a los de las letras minúsculas (entre el
+97 y el 122). Posteriormente mostrar separados por comas el contenido de ambos arrays (cada
+uno en su línea) y las posiciones donde existe coincidencia de letra y código ASCII
+
+22. Crear una clase que genere una matriz de enteros de dimensión 4x4, almacenando en cada
+celda el resultado de sumar fila+columna. Una vez rellenada, mostrar la tabla con formato.
+
+23. Una empresa que se dedica a la venta de desinfectantes necesita un programa para
+gestionar facturas, en cada factura debe figurar el código del artículo, la cantidad en Litros y el
+precio por Litro. Se pide, tras introducir los productos a facturar, generar las facturas y el total
+de Litros vendidos, así como el número de facturas cuyo importe sea mayor de 600€.
+
+24. Crear una clase que nos indique los caracteres y el número de veces que aparece cada uno
+en un texto introducido por teclado (sin decir que los caracteres que no aparecen lo hacen 0
+veces), no se distingue entre mayúsculas y minúsculas
+
+25. Crear una clase que genere aleatoriamente una tabla de 5x5 conteniendo los resultados de
+todos los enfrentamientos entre cinco equipos deportivos (columna=visitante). Resultados
+entre 0 y 5. Clasificación posterior con 3pt partido ganado, 1pt empatado, 0pt perdido
 
 26. Crear una clase que a traves de un metodo recursivo "suma" muestre la suma de todos los numeros enteros comprendidos
 entre 2 introducidos por teclado, el metodo suma recibira como parameto los dos numeros a sumar.
@@ -23,21 +74,16 @@ independientemente de los tipos de datos de los sumandos.
 
 29. Ejercicio29.pdf (Piramide botes)
 
-INVENTADO. Una empresa que tiene 5 taxis quiere gestionarlos, cada vez que alguien alquila un taxi, ese taxi cobra un
-importe por la carrera, el cliente llama, la centralita revisa si tiene taxis disponibles y le dice el importe.
-La empresa desea saber cuanto dinero ha generado cada uno de los taxis y el total del dinero generado por todos los taxis.
+30. Crear una clase llamada Monedero que permita crear y gestionar diferentes monederos.
+	Tiene un menú:
 
-Crear un menu:
-1. Solicitar taxi
-2. Taxis disponibles
-3. Ingresos por taxi
-4. Ingresos totales
-5. Salir
-
-Clase taxi: Diferenciar taxis (matricula), boolean (disponible) e ingresos por taxi.
-Metodos: Sumar importes, disponible/ocupado (get/set)
-
-
+	1. Crear nuevo monedero
+	2. Pagar artículo (Elegir qué monedero paga el artículo. Puede pasar algo si no hay suficiente
+	dinero)
+	3. Ingresar saldo (Qué monedero elegimos, qué cantidad)
+	4. Consultar saldo (Qué monedero)
+	5. Eliminar monedero (Cuál es el monedero)
+	6. Salir
 
 33. Ejercicio33.pdf
 
