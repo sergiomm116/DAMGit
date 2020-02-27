@@ -4,6 +4,7 @@ public class Ejercicio3 {
 		//   sumaArray(array, 0);
 		
 	public static int sumaArray(int[] array, int n){
+		
 		if (n >= array.length) {
 			return 0;
 		}

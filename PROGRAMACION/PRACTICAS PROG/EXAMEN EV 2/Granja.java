@@ -9,7 +9,7 @@ class Granja {
 		public void recibirAnimal(Animal animal) {
 		int i = 0;
 		boolean ocupado = false;
-			while(ocupado != false && i < animales.length){
+			while(ocupado != true && i < animales.length){
 				
 				if(animales[i]==null){
 					animales[i]= animal;
@@ -31,7 +31,7 @@ class Granja {
 		
 		public void datosSegunRaza(String raza) {
 			for(Animal animal : animales){
-				if(animal.razaGet() == raza){
+				if(animal.razaGet().equals(raza)){
 					System.out.println(animal.nombreGet()+" "+animal.edadGet());
 				}
 			}
