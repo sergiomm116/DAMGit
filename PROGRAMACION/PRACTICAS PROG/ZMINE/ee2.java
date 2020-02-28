@@ -1,4 +1,4 @@
-public class Ejercicio1 {
+public class ee2 {
 	
 	public static int[] ordenaParImpar(int[] numeros) {
 		
@@ -62,5 +62,24 @@ public class Ejercicio1 {
 		//Return del array numeros
 		
 		return numeros;
+		
+		
+	}
+	
+	public static void main (String[] args) {
+		
+		int[] numeros = {5,7,2,589,6,166,46,6,654654,64,64};
+		for(int i : numeros){
+			System.out.print(i+" ");
+		}
+		ordenaParImpar(numeros);
+		System.out.println();
+		System.out.println();
+		
+		for(int i : numeros){
+			System.out.print(i+" ");
+		}
+		
 	}
 }
+
