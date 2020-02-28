@@ -5,13 +5,13 @@ class Granja {
 	Animal[] animales;
 	
 	public Granja (){
-		animales = new Animal[10];
+		animales = new Animal[2];
 	}
 	
 	public void recibirAnimal(Animal animal) {
 		int i = 0;
 		boolean isNull = false;
-		while(isNull != false && i < animales.length){
+		while(isNull == false && i < animales.length){
 			
 			if(animales[i]==null){
 				animales[i]= animal;
@@ -33,7 +33,7 @@ class Granja {
 	
 	public void datosSegunRaza(String raza) {
 		for(Animal animal : animales){
-			if(animal.razaGet() == raza){
+			if(animal.razaGet().equals(raza)){
 				System.out.println(animal.nombreGet()+" "+animal.edadGet());
 			}
 		}
@@ -76,11 +76,13 @@ public class e2 {
 		String raza, nombre;
 		int edad;
 		
-		for(int i = 0; i < 1; i++){
-			System.out.println("edad");
+		for(int i = 0; i < 2; i++){
+			System.out.print("edad ");
 			edad = input.nextInt();
 			input.nextLine();
+			System.out.print("raza ");
 			raza = input.nextLine();
+			System.out.print("nombre ");
 			nombre = input.nextLine();
 			granja.recibirAnimal(new Animal(raza, nombre, edad));
 		}
