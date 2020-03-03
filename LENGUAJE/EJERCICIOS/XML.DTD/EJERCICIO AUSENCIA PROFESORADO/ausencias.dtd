@@ -1,0 +1,18 @@
+<!ELEMENT ausencias (nombre, fecha, hora+, notificacion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (dia, mes, año)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT hora (aula, grupo, materia, activdad+, guardia)>
+<!ELEMENT aula (#PCDATA)>
+<!ELEMENT materia (#PCDATA)>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT guardia (#PCDATA)>
+
+
+<!ATTLIST ausencias notificacion (Si | No) CDATA #REQUIRED>
+
+
+
+
