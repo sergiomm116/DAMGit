@@ -1,13 +1,8 @@
 	public class E106 {
-	/**
-	* @author Sergio Martinez
-        * @version 1.0
-	* Metodo para identificar codigos de barras (tanto de 8 como de 13). Si es correcto imprime "SI", si no, "NO"
-	* @param Codigo String que contiene el codigo de barras a analizar
-	* @param dig Ecuacion necesario para verificacion de errores
-	* @param num Digito a analizar
-	* @param last Ultimo digito del codigo de barras con el que se verifican los errores
-	*/
+		/**
+		 * @author Sergio Martinez
+		 * @version 1.0
+		 **/
 	static public void EAN (String codigo){
 		System.out.print(codigo+" ");
 		int dig = 0;
@@ -53,8 +48,11 @@
 	}
 	
 	/*
-	 * Clase ejecutable
-	 * Llamada al metodo pasandole el como parametro String el codigo a analizar
+	 * Metodo para identificar codigos de barras (tanto de 8 como de 13). Si es correcto imprime "SI", si no, "NO"
+	 * @param Codigo String que contiene el codigo de barras a analizar
+	 * @param dig Ecuacion necesario para verificacion de errores
+	 * @param num Digito a analizar
+	 * @param last Ultimo digito del codigo de barras con el que se verifican los errores
 	 */
 	public static void main (String[] args) {
 		
@@ -64,6 +62,12 @@
 		EAN("8414533043847");
 		EAN("5029365779425");
 		EAN("5129365779425");
+		
+	/*
+	 * Clase ejecutable
+	 * Llamada al metodo pasandole el como parametro String el codigo a analizar
+	 */
+		
 	}
 }
 
