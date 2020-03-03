@@ -2,20 +2,19 @@ public class Game {
 	
 	public static void main (String[] args) throws InterruptedException {
 		
-			//~ int mapy = (int)(Math.random()*40+1);
-			//~ int mapx = (int)(Math.random()*40+1);
+			int mapy = (int)(Math.random()*40+1);
+			int mapx = (int)(Math.random()*40+1);
 			
-			int mapy = 3;
-			int mapx = 2;
+
 			
 			int playery=0;
 			int playerx=0;
 			
-			System.out.println("x: "+mapx);
-			System.out.println("y: "+mapy);
-			boolean mission = true;
+			System.out.println("x  y");
+			System.out.println(mapx+" "+mapy);
+			boolean mission = false;
 			
-				while(mission=true){
+				while(mission!=true){
 					if(mapx != playerx){
 						if(mapx > playerx){
 							playerx++;
@@ -27,11 +26,10 @@ public class Game {
 						}
 					}
 					if(mapy == playery && mapx == playerx){
-						mission=false;
+						mission=true;
 					}
 					Thread.sleep(500);
-					System.out.println(playerx);
-					System.out.println(playery);
+					System.out.println(playerx+" "+playery);
 				}
 	}
 }
