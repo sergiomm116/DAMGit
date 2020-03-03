@@ -1,8 +1,9 @@
-package Codigo_de_barras;
-
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
 
-class CodigoBarras {
+public class CodigoBarras {
     public static void ean8(char[] entry, int length, StringBuilder x){
         int counter = 0;
         boolean par = false;
@@ -15,7 +16,7 @@ class CodigoBarras {
                 par = true;
             }
         }
-        if((counter + entry[length-1]-'0')%10 == 0)
+        if((counter + entry[length-1] -'0')%10 == 0)
             x.append("SI\n");
         else
             x.append("NO\n");
@@ -35,34 +36,43 @@ class CodigoBarras {
         }
         if((counter + entry[length-1]-'0')%10 == 0){
             if (length < 13 || entry[0] == '0') x.append("SI EEUU\n");
-            else if (entry.substring(0,3).equals("380")) x.append("SI Bulgaria\n");
-            else if (entry.substring(0,2).equals("50")) x.append("SI Inglaterra\n");
-            else if (entry.substring(0,3).equals("539")) x.append("SI Irlanda\n");
-            else if (entry.substring(0,3).equals("560")) x.append("SI Portugal\n");
-            else if (entry.substring(0,2).equals("70")) x.append("SI Noruega\n");
-            else if (entry.substring(0,3).equals("759")) x.append("SI Venezuela\n");
-            else if (entry.substring(0,3).equals("850")) x.append("SI Cuba\n");
-            else if (entry.substring(0,3).equals("890")) x.append("SI India\n");
+            else if (entry[0] == '3' && entry[1] == '8' && entry[2] == '0') x.append("SI Bulgaria\n");
+            else if (entry[0] == '5') {
+                if (entry[1] == '0') x.append("SI Inglaterra\n");
+                else if (entry[1] == '3' && entry[2] == '9') x.append("SI Irlanda\n");
+                else if (entry[1] == '6' && entry[2] == '0') x.append("SI Portugal\n");
+                else x.append("SI Desconocido\n");
+            }
+            else if (entry[0] == '7') {
+                if (entry[1] == '0') x.append("SI Noruega\n");
+                else if (entry[1] == '5' && entry[2] == '9') x.append("SI Venezuela\n");
+                else x.append("SI Desconocido\n");
+            }
+            else if (entry[0] == '8') {
+                if (entry[1] == '5' && entry[2] == '0') x.append("SI Cuba\n");
+                else if (entry[1] == '9' && entry[2] == '0') x.append("SI India\n");
+                else x.append("SI Desconocido\n");
+            }
             else x.append("SI Desconocido\n");
-        } else
+        }
+        else
             x.append("NO\n");
     }
 
     public static void main(String[] args) throws IOException {
-//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in), 8000);
         StringBuilder x = new StringBuilder(8000);
-        char[] chars = new char[128];
-        int length = readLine(chars);
-        while(length != 1 || chars[0] != '0') {
-            if (length <= 8) {
-                ean8(entry, x);
-            } else if (length <= 13) {
-                ean13(entry, x);
+        char[] entry = new char[128];
+        int lenght;
+        while((lenght = readLine(entry)) != 1 || entry[0] != '0') {
+            if (lenght <= 8) {
+                ean8(entry, lenght, x);
+            } else if (lenght <= 13) {
+                ean13(entry, lenght, x);
             } else {
                 x.append("NO\n");
             }
         }
-        System.out.append(x.toString());
+        System.out.print(x.toString());
     }
 
     /**
@@ -78,7 +88,7 @@ class CodigoBarras {
             chars[currentIndex++] = (char) c;
             c = System.in.read();
         }
-
         return currentIndex;
     }
 }
+
