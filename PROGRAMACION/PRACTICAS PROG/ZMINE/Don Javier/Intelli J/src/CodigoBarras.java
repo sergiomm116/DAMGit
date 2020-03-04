@@ -91,4 +91,3 @@ public class CodigoBarras {
         return currentIndex;
     }
 }
-

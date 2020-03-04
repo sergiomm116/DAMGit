@@ -18,6 +18,7 @@ public class RandomToPI{
 		//~ System.out.println(x+" "+y);
 		//~ System.out.println(x+y);
 		System.out.print(j+" "+z);
+
 	}
 }
 

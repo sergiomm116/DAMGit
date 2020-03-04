@@ -92,3 +92,8 @@ independientemente de los tipos de datos de los sumandos.
 35. Crear la clase final Math2 (clase similar a Math) (metodos estaticos: maximo, minimo, sumatorio y media).
 Los metodos recogeran un array de numeros double y devolveran el resultado que corresponda. (Maximo: El mas grande, etc...)
 Crear una clase Ejercicio35 para probar la clase Math2, crearemos en ella un array de 6 elementos y llamaremos a los 4 metodos.
+
+
+36. Ejercicio36.pdf
+
+37. Ejercicio37.pdf
