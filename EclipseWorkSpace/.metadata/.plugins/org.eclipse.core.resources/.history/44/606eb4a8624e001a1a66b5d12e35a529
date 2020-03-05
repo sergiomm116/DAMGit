@@ -1,0 +1,46 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CalculadoraTest {
+
+	@Test
+	void testCalculadora() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSuma() {
+		Calculadora calcu = new Calculadora (20, 10);
+		int resultado = calcu.suma();
+		assertEquals(30, resultado);
+	}
+
+	@Test
+	void testResta() {
+		Calculadora calcu = new Calculadora (20, 10);
+		int resultado = calcu.resta();
+		assertEquals(10, resultado);
+	}
+	
+	@Test
+	void testResta2() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testDivide2() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testMultiplica() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testDivide() {
+		fail("Not yet implemented");
+	}
+
+}
