@@ -97,3 +97,6 @@ Crear una clase Ejercicio35 para probar la clase Math2, crearemos en ella un arr
 36. Ejercicio36.pdf
 
 37. Ejercicio37.pdf
+
+38. Crear una clase persona que implemente la interface cpmparable (ya existe) y que permita determinar las diferencias en edad y o altura de dos personas
+java. lang -> Interface Comparable (manual)
