@@ -6,7 +6,7 @@ import java.io.RandomAccessFile;
 import javax.swing.JFrame;
 
 public class FicheroAleatorioVentana {
-	
+
 	public static void main(String[] args) throws IOException {
 		
 		JFrame f = new JFrame("DEPARTAMENTOS.");
@@ -21,14 +21,5 @@ public class FicheroAleatorioVentana {
 	   
 	}//fin main
 
-	class claseAnidada {
-		void entrada() {
-			System.out.println("Metodo de entrada.");}
-		
-		String salida (int d) {
-			System.out.println("Salida.");
-			return "Salida el " + d;
-			}
-		}//fin clase anidada
 	
 }//fin class
