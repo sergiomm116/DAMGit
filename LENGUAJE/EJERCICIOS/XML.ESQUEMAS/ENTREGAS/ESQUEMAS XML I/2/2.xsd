@@ -3,8 +3,9 @@
   <xs:element name="email">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="cc" type="xs:string" minOccurs="0" maxOccurs="1"/>
-        <xs:element name="cco" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="para" type="xs:string"/>
+        <xs:element name="cc" type="xs:string" minOccurs="0"/>
+        <xs:element name="cco" type="xs:string" minOccurs="0"/>
         <xs:element name="asunto" type="xs:string"/>
         <xs:element name="cuerpo" type="xs:string"/>
       </xs:sequence>

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<empleado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/DAM/lenguajes%20marcas%2019-20/3%20trimestre/ejercicios/entregar/Ejercicios%20esquemas%20xml1/3/ejercicio3.xsd">
-    <nombre></nombre>
-    <apellidos></apellidos>
-    <dni></dni>
-    <telefono></telefono>
-    <direccion></direccion>
-</empleado>

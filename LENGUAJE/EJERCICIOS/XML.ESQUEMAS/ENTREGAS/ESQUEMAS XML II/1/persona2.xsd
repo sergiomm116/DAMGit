@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="persona2">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="Nombre" type="xs:string" maxOccurs="1"/>
+      <xs:element name="Profesion" type="xs:string" maxOccurs="1"/>
+      <xs:element name="Direccion">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Calle" type="xs:string" maxOccurs="1"/>
+            <xs:element name="Numero" type="xs:string" maxOccurs="1"/>
+            <xs:element name="Provincia" type="xs:string" maxOccurs="1"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Telefono" type="xs:string" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

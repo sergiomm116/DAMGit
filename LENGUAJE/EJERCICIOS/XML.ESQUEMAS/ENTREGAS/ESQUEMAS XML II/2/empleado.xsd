@@ -1,0 +1,20 @@
+﻿<?xmlversion="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:elementname="empleado">
+<xsd:complexType>
+   <xsd:sequence>
+<xsd:sequence>
+<xsd:elementname="nombre" type="xsd:string" />
+<xsd:elementname="fechaingreso" type="xsd:string" />
+<xsd:elementname="salario" type="xsd:string" />
+</xsd:sequence>
+<xsd:choice>
+<xsd:elementname="fe1" type="xsd:date" />
+<xsd:elementname="fe2" type="xsd:date" />
+</xsd:choice>
+<xsd:elementname="comentario" type="xsd:string" minOccurs="1" maxOccurs="3"/>
+              </xsd:sequence>
+  <xsd:attributename="id" type="xsd:string" use="required"/> 
+</xsd:complexType>
+</xsd:element> 
+</xsd:schema>

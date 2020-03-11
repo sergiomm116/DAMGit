@@ -102,3 +102,5 @@ Crear una clase Ejercicio35 para probar la clase Math2, crearemos en ella un arr
 edad y o altura de dos personas.
 
 java. lang -> Interface Comparable (manual)
+
+39. 

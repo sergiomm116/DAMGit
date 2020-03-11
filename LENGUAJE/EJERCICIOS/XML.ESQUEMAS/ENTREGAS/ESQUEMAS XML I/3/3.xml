@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<empleado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/1DAM01/Documents/SergioMartinez/DAMGit/LENGUAJE/EJERCICIOS/XML.ESQUEMAS/ENTREGAS/ESQUEMAS%20XML%20I/3.xsd">
+<nombre>Ejemplo</nombre>
+<apellidos>Ejemplo</apellidos>
+<dni>Ejemplo</dni>
+<telefono>Ejemplo</telefono>
+<direccion>Ejemplo</direccion>
+<direccion>Ejemplo</direccion>
+</empleado>
