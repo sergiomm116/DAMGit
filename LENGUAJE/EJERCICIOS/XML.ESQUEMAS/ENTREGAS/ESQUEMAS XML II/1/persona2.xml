@@ -1,0 +1,10 @@
+﻿<persona2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "persona2.xsd">
+  <Nombre>Luis Quintana</Nombre>
+  <Profesion>Profesor</Profesion>
+  <Direccion>
+    <Calle>Avenida de los Poblados</Calle>
+    <Numero>6</Numero>
+    <Provincia>Zaragoza</Provincia>
+  </Direccion>
+  <Telefono>968-21-43-56</Telefono>
+</persona2>

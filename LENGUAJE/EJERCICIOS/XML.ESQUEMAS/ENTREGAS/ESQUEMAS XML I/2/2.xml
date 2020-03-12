@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<email xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/1DAM01/Documents/SergioMartinez/DAMGit/LENGUAJE/EJERCICIOS/XML.ESQUEMAS/ENTREGAS/ESQUEMAS%20XML%20I/2.xsd">
+<para>ejemplo@gmail.com</para>
+<cc>ejemplo</cc>
+<cco>ejemplo</cco>
+<asunto>ejemplo</asunto>
+<cuerpo>ejemplo</cuerpo>
+</email>
