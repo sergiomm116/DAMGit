@@ -1,0 +1,5 @@
+Ejercicio A
+/fP/ciclos/ciclo/referenteInternacional/text()
+
+Ejercicio B
+/fP//@unidad/data()
