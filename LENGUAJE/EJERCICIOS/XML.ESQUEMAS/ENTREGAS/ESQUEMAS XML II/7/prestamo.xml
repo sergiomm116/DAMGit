@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prestamo id="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="prestamo.xsd">
+	<bibliotecario>
+		<nombre>Arturo</nombre>
+		<apellidos>Lopez Garcia</apellidos>
+	</bibliotecario>
+	<fecha>
+		<prestamo>2020-04-26</prestamo>
+		<devolucion>2020-04-28</devolucion>
+	</fecha>
+	<lector>
+		<id_lector>1</id_lector>
+		<nombre>Sergio</nombre>
+		<apellidos>Martinez Martinez</apellidos>
+		<telefono>666666666</telefono>
+		<direccion>
+			<tipo_calle>Calle</tipo_calle>
+			<nombre_calle>Falsa</nombre_calle>
+			<numero>123</numero>
+			<piso>4</piso>
+			<letra>A</letra>
+			<cp>16000</cp>
+			<localidad>Cuenca</localidad>
+			<provincia>Cuenca</provincia>
+		</direccion>
+	</lector>
+	<ejemplar>
+		<num_registro>1547</num_registro>
+		<titulo>Don Quijote de la Mancha</titulo>
+		<autor>Miguel de Cervantes</autor>
+		<autor>El manco de Lepanto</autor>
+	</ejemplar>
+	<ejemplar>
+		<num_registro>3462</num_registro>
+		<titulo>El Codigo Da Vinci</titulo>
+		<autor>Dan Brown</autor>
+	</ejemplar>
+	<ejemplar>
+		<num_registro>45634</num_registro>
+		<titulo>Gomorra</titulo>
+		<autor>Roberto Saviano</autor>
+	</ejemplar>
+</prestamo>

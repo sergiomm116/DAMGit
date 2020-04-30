@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="temporada">
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:element name="jornada" type="Xjornada" minOccurs="5" maxOccurs="5"/>
+				
+			</xs:sequence>
+			
+			<xs:attribute name="año" type="xs:gYear" use="required"/>
+			
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="Xjornada">
+		<xs:sequence>
+		
+			<xs:element name="partido" type="Xpartido" minOccurs="3" maxOccurs="3"/>
+		
+		</xs:sequence>
+		
+		<xs:attribute name="numero" type="xs:NMTOKEN"/>
+		
+	</xs:complexType>
+	
+	<xs:complexType name="Xpartido">
+		<xs:sequence>
+		
+			<xs:element name="fecha" type="xs:date"/>
+			<xs:element name="estadio" type="Xestadio"/>
+			<xs:element name="local" type="Xequipo"/>
+			<xs:element name="visitante" type="Xequipo"/>
+			
+			<xs:choice>
+			
+				<xs:element name="resultado" type="Xresultado"/>
+				<xs:element name="aplazado"/>
+		
+			</xs:choice>
+			
+		</xs:sequence>
+		
+		<xs:attribute name="numero" type="xs:NMTOKEN"/>
+		
+	</xs:complexType>
+	
+	<xs:complexType name="Xestadio">
+		<xs:simpleContent>
+	
+			<xs:extension base="xs:string">
+			
+				<xs:attribute name="espectadores" type="Xespectadores" default="0"/>
+			
+			</xs:extension>
+		
+		</xs:simpleContent> 
+	</xs:complexType>
+	
+	<xs:simpleType name="Xespectadores">
+	  
+		<xs:restriction base="xs:integer">
+			
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="80000"/>
+			
+		</xs:restriction>  
+	  
+	</xs:simpleType>
+	
+	<xs:simpleType name="Xequipo">
+	
+		<xs:restriction base="xs:string">
+		
+			<xs:enumeration value="Italia"/>
+			<xs:enumeration value="Escocia"/>
+			<xs:enumeration value="Inglaterra"/>
+			<xs:enumeration value="Irlanda"/>
+			<xs:enumeration value="Gales"/>
+			<xs:enumeration value="Francia"/>
+			
+		</xs:restriction>
+		
+	</xs:simpleType>
+	
+	<xs:complexType name="Xresultado">
+		
+		<xs:attribute name="local" type="xs:integer" use="required"/>
+		<xs:attribute name="visitante" type="xs:integer" use="required"/>
+		
+	</xs:complexType>
+
+</xs:schema>

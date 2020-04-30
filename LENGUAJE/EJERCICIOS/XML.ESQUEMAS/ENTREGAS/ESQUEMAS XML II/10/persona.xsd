@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="persona">
+		<xs:complexType>
+			<xs:sequence>
+				  
+				<xs:element name="nombre" type="xs:string"/>
+				<xs:element name="apellido" type="xs:string"/>
+				<xs:element name="estadoCivil" type="XestadoCivil"/>
+				<xs:element name="edad" type="Xedad"/>
+				<xs:element name="enActivo" minOccurs="0"/>
+					
+			</xs:sequence>
+			
+			<xs:attribute name="dni" type="Xdni" use="required"/>  
+			
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:simpleType name="Xdni">
+  
+		<xs:restriction base="xs:string">
+    
+			<xs:pattern value="\d{8}\-[A-Z]"/> 		
+    
+		</xs:restriction>  
+  
+	</xs:simpleType>
+	
+	<xs:simpleType name="XestadoCivil">
+  
+		<xs:restriction base="xs:string">
+    
+			<xs:enumeration value="Soltero"/> 
+			<xs:enumeration value="Casado"/> 
+			<xs:enumeration value="Divorciado"/> 			
+			<xs:enumeration value="Viudo"/> 			
+    
+		</xs:restriction>  
+  
+	</xs:simpleType>
+	
+	<xs:simpleType name="Xedad">
+	  
+		<xs:restriction base="xs:integer">
+			
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="150"/>
+			
+		</xs:restriction>  
+	  
+	</xs:simpleType> 
+	
+</xs:schema>

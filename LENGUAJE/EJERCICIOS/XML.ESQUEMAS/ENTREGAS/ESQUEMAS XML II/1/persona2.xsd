@@ -1,21 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name="persona2">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="Nombre" type="xs:string" maxOccurs="1"/>
-      <xs:element name="Profesion" type="xs:string" maxOccurs="1"/>
-      <xs:element name="Direccion">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element name="Calle" type="xs:string" maxOccurs="1"/>
-            <xs:element name="Numero" type="xs:string" maxOccurs="1"/>
-            <xs:element name="Provincia" type="xs:string" maxOccurs="1"/>
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="Telefono" type="xs:string" maxOccurs="1"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="persona2">
+    <xs:complexType>
+      <xs:sequence>
+	  
+        <xs:element name="Nombre" type="xs:string"/>
+        <xs:element name="Profesion" type="xs:string"/>
+        <xs:element name="Direccion" type="XDireccion"/>
+        <xs:element name="Telefono" type="XTelefono"/>
+		
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+    <xs:complexType name="XDireccion">
+      <xs:sequence>
+	  
+        <xs:element name="Calle" type="xs:string"/>
+        <xs:element name="Numero" type="XNumero"/>
+        <xs:element name="Provincia" type="xs:string"/>
+		
+      </xs:sequence>
+    </xs:complexType>
+	
+	<xs:simpleType name="XTelefono">
+		
+		<xs:restriction base="xs:string">
+		
+			<xs:pattern value="\d{3}\-\d{2}\-\d{2}\-\d{2}"/>
+		
+		</xs:restriction>
+		
+	</xs:simpleType>
+	
+	<xs:simpleType name="XNumero">
+		
+		<xs:restriction base="xs:string">
+		
+			<xs:pattern value="\d{0,3}"/>
+			<xs:maxLength value="3"/>
+		
+		</xs:restriction>
+		
+	</xs:simpleType>
+    
 </xs:schema>

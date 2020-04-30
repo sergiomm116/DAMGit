@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<temporada año="2000" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="temporada.xsd">
+	<jornada numero="1">
+		<partido numero="1">
+			<fecha>2000-02-05</fecha>
+			<estadio espectadores="24000">Stadio Flaminio</estadio>
+			<local>Italia</local>
+			<visitante>Escocia</visitante>
+			<resultado local="32" visitante="20"/>
+		</partido>
+		<partido numero="2">
+			<fecha>2000-02-05</fecha>
+			<estadio>Twickenham</estadio>
+			<local>Inglaterra</local>
+			<visitante>Irlanda</visitante>
+			<aplazado/>
+		</partido>
+		<partido numero="3">
+			<fecha>2000-02-05</fecha>
+			<estadio espectadores="72500">Millennium Stadium</estadio>
+			<local>Gales</local>
+			<visitante>Francia</visitante>
+			<resultado local="3" visitante="36"/>
+		</partido>
+	</jornada>
+	<jornada numero="2">
+		<partido numero="1">
+			<fecha>2000-02-19</fecha>
+			<estadio espectadores="78000">Stade de France</estadio>
+			<local>Francia</local>
+			<visitante>Inglaterra</visitante>
+			<resultado local="9" visitante="15"/>
+		</partido>
+		<partido numero="2">
+			<fecha>2000-02-19</fecha>
+			<estadio espectadores="72500">Millennium Stadium</estadio>
+			<local>Gales</local>
+			<visitante>Italia</visitante>
+			<resultado local="47" visitante="16"/>
+		</partido>
+		<partido numero="3">
+			<fecha>2000-02-19</fecha>
+			<estadio espectadores="40000">Lansdowne Road</estadio>
+			<local>Irlanda</local>
+			<visitante>Escocia</visitante>
+			<resultado local="44" visitante="22"/>
+		</partido>
+	</jornada>
+	<jornada numero="3">
+		<partido numero="1">
+			<fecha>2000-03-04</fecha>
+			<estadio espectadores="67500">Murrayfield</estadio>
+			<local>Escocia</local>
+			<visitante>Francia</visitante>
+			<resultado local="16" visitante="28"/>
+		</partido>
+		<partido numero="2">
+			<fecha>2000-03-04</fecha>
+			<estadio espectadores="73500">Twickenham</estadio>
+			<local>Inglaterra</local>
+			<visitante>Gales</visitante>
+			<resultado local="17" visitante="6"/>
+		</partido>
+		<partido numero="3">
+			<fecha>2000-03-04</fecha>
+			<estadio espectadores="40000">Lansdowne Road</estadio>
+			<local>Irlanda</local>
+			<visitante>Italia</visitante>
+			<resultado local="17" visitante="6"/>
+		</partido>
+	</jornada>
+	<jornada numero="4">
+		<partido numero="1">
+			<fecha>2000-03-18</fecha>
+			<estadio espectadores="30000">Stadio Flaminio</estadio>
+			<local>Italia</local>
+			<visitante>Inglaterra</visitante>
+			<resultado local="12" visitante="59"/>
+		</partido>
+		<partido numero="2">
+			<fecha>2000-02-19</fecha>
+			<estadio espectadores="72500">Millennium Stadium</estadio>
+			<local>Gales</local>
+			<visitante>Escocia</visitante>
+			<resultado local="26" visitante="18"/>
+		</partido>
+		<partido numero="3">
+			<fecha>2000-02-19</fecha>
+			<estadio espectadores="65000">Stade de France</estadio>
+			<local>Francia</local>
+			<visitante>Irlanda</visitante>
+			<resultado local="25" visitante="27"/>
+		</partido>
+	</jornada>
+	<jornada numero="5">
+		<partido numero="1">
+			<fecha>2000-04-01</fecha>
+			<estadio espectadores="77000">Stade de France</estadio>
+			<local>Francia</local>
+			<visitante>Italia</visitante>
+			<resultado local="42" visitante="31"/>
+		</partido>
+		<partido numero="2">
+			<fecha>2000-02-19</fecha>
+			<estadio espectadores="40000">Lansdowne Road</estadio>
+			<local>Irlanda</local>
+			<visitante>Gales</visitante>
+			<resultado local="19" visitante="23"/>
+		</partido>
+		<partido numero="3">
+			<fecha>2000-02-19</fecha>
+			<estadio espectadores="67500">Murrayfield</estadio>
+			<local>Escocia</local>
+			<visitante>Inglaterra</visitante>
+			<resultado local="19" visitante="13"/>
+		</partido>
+	</jornada>
+</temporada>

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<empleado id="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/DAM/lenguajes%20marcas%2019-20/3%20trimestre/ejercicios/entregar/Ejercicios%20esquemas%20xml2/2/ejercicio2.xsd">
-  <nombre ></nombre>
-  <fechaingreso></fechaingreso>
-  <salario>2222</salario>
-  <fe2 >2000-02-20</fe2>
-  <comentario></comentario>
-</empleado> 

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fP id="formacion profesional"> 
+  <ciclos>
+    <ciclo siglas="SMR">
+      <nombre> Sistemas microinformaticos y redes</nombre>  
+      <familiaProfesional>Informatica</familiaProfesional>
+      <duracion unidad="horas">2000</duracion> 
+      <grado>Medio</grado>
+      <referenteInternacional clasificacion="CINE">3</referenteInternacional> 
+    </ciclo>  
+    <ciclo siglas="ASIR">
+      <nombre> Administración de Sistemas Informaticos</nombre>  
+      <familiaProfesional>Informatica</familiaProfesional>
+      <duracion unidad="horas">2000</duracion> 
+      <grado>Superior</grado>
+      <referenteInternacional clasificacion="CINE">5b</referenteInternacional> 
+      <ects>120</ects>
+    </ciclo>  
+  </ciclos>
+  <modulos>
+    <modulo codigo="0222" >
+      <nombre>Sistemas operativos monopuesto</nombre>   
+      <duracion unidad="horas"> 80</duracion> 
+      <curso>1</curso>
+      <ciclos>
+        <ciclo siglas="SMR" />      
+      </ciclos>
+    </modulo>
+    <modulo codigo="0373" >
+      <nombre>Lenguajes de marcas y sistemas de gestión</nombre>   
+      <duracion unidad="horas"> 70</duracion> 
+      <ects>7</ects>
+      <curso>1</curso>
+      <ciclos>
+        <ciclo siglas="ASIR" />
+        <ciclo siglas="DAW" />
+        <ciclo siglas="DAM" />
+      </ciclos>
+    </modulo>
+  </modulos>
+</fP>
