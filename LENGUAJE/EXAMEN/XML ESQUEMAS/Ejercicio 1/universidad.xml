@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<universidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="universidad.xsd">
+		<alumnos>
+			<alumno>
+				<nombre>pepe</nombre>
+				<apellido>pinillos</apellido>
+				<pasaporte>434235</pasaporte>
+				<fechanacimiento>
+					<dia>12</dia>
+					<mes>11</mes>
+					<anio>1970</anio>
+				</fechanacimiento>
+				<matriculado asignatura="F89" nota="NT"/>
+				<matriculado asignatura="A990" nota="IN"/>
+			</alumno>
+		</alumnos>
+		<asignaturas>
+			<asignatura codigo="F89">
+				<titulo>Lenguajes Marcas</titulo>
+				<carrera>ITIS</carrera>
+				<creditos>4,5</creditos>
+				<curso>OP</curso>
+			</asignatura>
+			<asignatura codigo="A990">
+				<titulo>Bases de datos</titulo>
+				<carrera>ITGEST</carrera>
+			</asignatura>
+		</asignaturas>
+</universidad>

@@ -3,3 +3,14 @@ Ejercicio A
 
 Ejercicio B
 /fP//@unidad/data()
+
+Ejercicio C
+//modulos/modulo[last()-1]/*/text() | //modulos/modulo[last()-1]/ciclos/ciclo/@*
+
+Ejercicio D
+fP/ciclos/ciclo[grado='Superior']
+
+Ejercicio E, F y G
+No se como hacer que me muestre el nombre del ciclo en cuestion.
+
+

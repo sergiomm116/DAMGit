@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="fP.xsd">
+	<ciclos>
+		<ciclo siglas="SMR">
+			<nombre> Sistemas microinformaticos y redes</nombre>
+			<familiaProfesional>Informatica</familiaProfesional>
+			<duracion unidad="horas">2000</duracion>
+			<grado>Medio</grado>
+			<referenteInternacional>3</referenteInternacional>
+		</ciclo>
+		<ciclo siglas="ASIR">
+			<nombre> Administración de Sistemas Informaticos</nombre>
+			<familiaProfesional>Informatica</familiaProfesional>
+			<duracion unidad="horas">2000</duracion>
+			<grado>Superior</grado>
+			<referenteInternacional>5</referenteInternacional>
+			<ects>120</ects>
+		</ciclo>
+	</ciclos>
+</fP>

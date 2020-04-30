@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="fP">
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:element name="ciclos" type="Xciclos"/>
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="Xciclos">
+		<xs:sequence>
+			
+				<xs:element name="ciclo" type="Xciclo" minOccurs="1" maxOccurs="80"/>
+				
+		</xs:sequence>
+		
+	</xs:complexType>
+	
+	
+	
+	<xs:complexType name="Xciclo">
+		<xs:sequence>
+		
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="familiaProfesional" type="xs:string"/>
+			<xs:element name="duracion" type="Xduracion"/>
+			<xs:element name="grado" type="Xgrado"/>
+			<xs:element name="referenteInternacional" type="xs:positiveInteger"/>
+			<xs:element name="ects" type="xs:positiveInteger" minOccurs="0"/>
+		
+		</xs:sequence>
+		
+		<xs:attribute name="siglas" type="Xsiglas" use="required"/>
+		
+	</xs:complexType>
+	
+	<xs:simpleType name="Xsiglas">
+	
+		<xs:restriction base="xs:string">
+		
+			<xs:pattern value="[A-Z]{3,4}"/>
+		
+		</xs:restriction>
+		
+	</xs:simpleType>
+	
+	<xs:complexType name="Xduracion">
+		<xs:simpleContent>
+	
+			<xs:extension base="xs:positiveInteger">
+			
+				<xs:attribute name="unidad" type="Xunidad"/>
+			
+			</xs:extension>
+		
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="Xunidad">
+	
+		<xs:restriction base="xs:string">
+		
+			<xs:enumeration value="horas"/>
+			<xs:enumeration value="meses"/>
+			<xs:enumeration value="años"/>
+		
+		</xs:restriction>
+		
+	</xs:simpleType>
+	
+	<xs:simpleType name="Xgrado">
+		<xs:restriction base="xs:string">
+			
+			<xs:enumeration value="Medio"/>
+			<xs:enumeration value="Superior"/>
+		
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

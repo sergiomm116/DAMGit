@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<empleado id="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="empleado.xsd">
+<nombre> Sergio </nombre>
+<fechaingreso> 2019-10-01 </fechaingreso>
+<salario> 1000€ </salario>
+<fe1> 2020-04-24 </fe1>
+<comentario> Comentario de ejemplo </comentario>
+<comentario> Comentario de ejemplo </comentario>
+</empleado>

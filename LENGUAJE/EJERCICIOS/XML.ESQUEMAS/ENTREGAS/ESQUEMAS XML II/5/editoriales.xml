@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<editoriales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="editoriales.xsd">
+	<titulo>Don Quijote de la Mancha</titulo>
+	<editorial>
+		<nombre>Editorial Juventud</nombre>
+		<email>info@editorialjuventud.es</email>
+		<homepage>https://www.editorialjuventud.es/</homepage>
+		<direccion>Provença,101 08029 Barcelona</direccion>
+		<tfno>934441800</tfno>
+		<fax>934441800</fax>
+	</editorial>
+	<editorial>
+		<nombre>La Galera</nombre>
+		<homepage>https://www.lagaleraeditorial.com/</homepage>
+		<direccion>Carrer de Josep Pla, 95, 08019 Barcelona</direccion>
+	</editorial>
+	<editorial>
+		<nombre>Herder Editorial</nombre>
+		<homepage>https://www.herdereditorial.com/</homepage>
+		<direccion>Carrer de Provença, 388, 08025 Barcelona</direccion>
+	</editorial>
+</editoriales>

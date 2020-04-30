@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="universidad">
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:element name="alumnos" type="Xalumnos"/>
+				<xs:element name="asignaturas" type="Xasignaturas"/>
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="Xalumnos">
+		<xs:sequence>
+		
+			<xs:element name="alumno" type="Xalumno"  minOccurs="0" maxOccurs="unbounded"/>
+		
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+	
+	<xs:complexType name="Xalumno">
+		<xs:sequence>
+		
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="apellido" type="xs:string" minOccurs="1" maxOccurs="2"/>
+			
+			<xs:choice>
+				
+				<xs:element name="dni" type="xs:string"/>
+				<xs:element name="pasaporte" type="xs:string"/>
+				
+			</xs:choice>
+			
+			<xs:element name="fechanacimiento" type="Xfechanacimiento"/>
+			<xs:element name="matriculado" type="Xmatriculado" minOccurs="1" maxOccurs="unbounded"/>
+		
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Xfechanacimiento">
+		<xs:sequence>
+		
+			<xs:element name="dia" type="Xdia"/>
+			<xs:element name="mes" type="Xmes"/>
+			<xs:element name="anio" type="xs:gYear"/>
+		
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:simpleType name="Xdia">
+	
+		<xs:restriction base="xs:positiveInteger">
+		
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="31"/>
+			
+		</xs:restriction>
+		
+	</xs:simpleType>
+	
+	<xs:simpleType name="Xmes">
+	
+		<xs:restriction base="xs:positiveInteger">
+		
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="12"/>
+			
+		</xs:restriction>
+		
+	</xs:simpleType>
+	
+	<xs:complexType name="Xmatriculado">
+		
+		<xs:attribute name="asignatura" type="xs:IDREF" use="required"/>
+		<xs:attribute name="nota" type="Xnota" default="SB"/>
+		
+	</xs:complexType>
+	
+	<xs:simpleType name="Xnota">
+	
+		<xs:restriction base="xs:string">
+		
+			<xs:enumeration value="NP"/>
+			<xs:enumeration value="IN"/>
+			<xs:enumeration value="SF"/>
+			<xs:enumeration value="BI"/>
+			<xs:enumeration value="NT"/>
+			<xs:enumeration value="SB"/>
+			<xs:enumeration value="MH"/>
+			
+		</xs:restriction>
+		
+	</xs:simpleType>
+	
+	<xs:complexType name="Xasignaturas">
+		<xs:sequence>
+		
+			<xs:element name="asignatura" type="Xasignatura"  minOccurs="2" maxOccurs="70"/>
+		
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Xasignatura">
+		<xs:sequence>
+		
+			<xs:element name="titulo" type="xs:string"/>
+			<xs:element name="carrera" type="xs:string"/>
+			<xs:element name="creditos" type="xs:string" minOccurs="0"/>
+			<xs:element name="curso" type="xs:string" minOccurs="0"/>
+		
+		</xs:sequence>
+		
+		<xs:attribute name="codigo" type="xs:ID" use="required"/>
+		
+	</xs:complexType>
+	
+</xs:schema>

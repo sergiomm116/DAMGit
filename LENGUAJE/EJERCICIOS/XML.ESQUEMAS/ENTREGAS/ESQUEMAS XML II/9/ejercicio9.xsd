@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="ejercicio9">
+		<xs:complexType>
+			<xs:choice>
+		  
+				<xs:element name="matricula" type="Xmatricula"/>
+				<xs:element name="pago" type="Xpago"/>
+			
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+  
+	<xs:simpleType name="Xmatricula">
+  
+		<xs:restriction base="xs:string">
+    
+			<xs:pattern value="[A-Z]{0,2}\-\d{4}\-[A-Z]{0,2}"/> 
+			<xs:maxLength value="9"/>			
+    
+		</xs:restriction>  
+  
+	</xs:simpleType>  
+  
+	<xs:simpleType name="Xpago">
+	  
+		<xs:restriction base="xs:string">
+			
+			<xs:enumeration value="VISA"/>
+			<xs:enumeration value="MasterCard"/>
+			<xs:enumeration value="American Express"/>
+			<xs:enumeration value="Efectivo"/>
+			
+		</xs:restriction>  
+	
+	</xs:simpleType>
+	
+</xs:schema>

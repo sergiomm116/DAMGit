@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="prestamo">
+		<xs:complexType>
+			<xs:sequence>
+				
+				<xs:element name="bibliotecario" type="Xbibliotecario"/>
+				<xs:element name="fecha" type="Xfecha"/>
+				<xs:element name="lector" type="Xlector"/>
+				<xs:element name="ejemplar" type="Xejemplar" maxOccurs="3"/>
+
+			</xs:sequence>
+			
+			<xs:attribute name="id" type="xs:NMTOKEN" use="required"/>
+			
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="Xbibliotecario">
+			<xs:sequence>
+				
+				<xs:element name="nombre" type="xs:string"/>
+				<xs:element name="apellidos" type="xs:string"/>
+				
+			</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Xfecha">
+		<xs:sequence>
+				
+			<xs:element name="prestamo" type="xs:date"/>
+			<xs:element name="devolucion" type="xs:date"/>
+				
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Xlector">
+		<xs:sequence>
+				
+			<xs:element name="id_lector" type="xs:NMTOKEN"/>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="apellidos" type="xs:string"/>
+			<xs:element name="telefono" type="xs:string"/>
+			<xs:element name="direccion" type="Xdireccion"/>
+				
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Xdireccion">
+		<xs:sequence>
+				
+			<xs:element name="tipo_calle" type="Xtipo_calle"/>
+			<xs:element name="nombre_calle" type="xs:string"/>
+			<xs:element name="numero" type="xs:string"/>
+			<xs:element name="piso" type="xs:string"/>
+			<xs:element name="letra" type="xs:string"/>
+			<xs:element name="cp" type="xs:string"/>
+			<xs:element name="localidad" type="xs:string"/>
+			<xs:element name="provincia" type="xs:string"/>
+				
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:simpleType name="Xtipo_calle">
+		<xs:restriction base="xs:string">
+
+			<xs:enumeration value="Calle"/>
+			<xs:enumeration value="Avenida"/>
+			<xs:enumeration value="Plaza"/>
+
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="Xejemplar">
+		<xs:sequence>
+				
+			<xs:element name="num_registro" type="xs:NMTOKEN"/>
+			<xs:element name="titulo" type="xs:string"/>
+			<xs:element name="autor" type="xs:string" maxOccurs="unbounded"/>
+
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>

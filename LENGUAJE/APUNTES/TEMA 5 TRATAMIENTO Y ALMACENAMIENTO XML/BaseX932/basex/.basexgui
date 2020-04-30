@@ -16,7 +16,7 @@ COLORBLUE = 6
 
 # Windows
 UPDATEVERSION = 9.3.2
-VIEWS = V H editor folder map plot - H text info table tree explore - - 
+VIEWS = V map H editor folder plot - H info table text tree explore - - 
 GUISIZE0 = 1004
 GUISIZE1 = 748
 GUILOC0 = 10
