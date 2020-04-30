@@ -1,5 +1,12 @@
 package interfaz;
 
+/**
+ * 
+ * @author Sergio Martínez
+ * @version Version 1 2020
+ * <h2>"Proyecto pruebas de refactorización 2014. Este protecto realiza el mantenimiento de la BD neodatis Empleados .dat. La base de datos esta formada por las clases persistentes de Empledos y Departamentos. Un departamento tiene muchos empleados."</h2>
+ * 
+ */
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.event.ActionEvent;

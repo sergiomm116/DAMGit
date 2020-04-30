@@ -1,5 +1,10 @@
 package interfaz;
 
+/**
+ *  <h2>Esta clase se encarga de realizar consultas estadisticas de empleados y departamentos. Tambien obtiene un listado de empleados y un listado de departamentos.</h2>
+ *  
+ */
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
