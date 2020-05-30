@@ -4,7 +4,7 @@ public class Ejercicio13 {
 	public static void main (String[] args) {
 		
 			Scanner input=new Scanner(System.in);
-			System.out.print("INTRODUCE UN NUMERO DEL 1 AL 100 Y TE DIRE COMO SE ESCRIBE :");
+			System.out.print("INTRODUCE UN NUMERO DEL 1 AL 100 Y TE DIRE COMO SE ESCRIBE: ");
 			int n=input.nextInt();
 			
 			if(n>0 && n<101){

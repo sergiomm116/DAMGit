@@ -24,7 +24,7 @@ public class Ejercicio15 {
 
 			// Clean last value
 
-			System.out.print("\b\b");
+			System.out.print("\b\b\b");
 
 		}
 

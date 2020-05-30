@@ -22,8 +22,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub Repository\DAMGit\PROGRAMACION\PRACTICAS PROG\ZMINE\Don Javier\redone\out\production\redone" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Java Scratch.Ejercicio1">
+    <configuration name="Ejercicio1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio1" />
+      <module name="redone" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio1" />
       <module name="redone" />
@@ -31,28 +44,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicio1" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio1" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/Ejercicio1.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.Ejercicio1" />
+        <item itemvalue="Application.Ejercicio1 (1)" />
+        <item itemvalue="Java Scratch.scratch" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.Ejercicio1" />
       </list>
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1589702837743">
+    <state x="677" y="178" key="#Ejercicio1_(1)" timestamp="1590565693239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589702837743" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1589702837743">
+    <state x="677" y="178" key="#Ejercicio1_(1)/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1590565693239" />
+    <state x="720" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590564293432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589702837743" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1589702837742">
+    <state x="720" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1590564293432" />
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1590565864513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589702837742" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1589702837743">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1590565864513" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1590565864513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589702837743" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1590565864513" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1590565864513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1590565864513" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1590565864513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1590565864513" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1590564566906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1590564566906" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590566184912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1590566184912" />
   </component>
 </project>
